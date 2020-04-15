@@ -8,5 +8,7 @@ $ python3 lb_service.py
 
 The leaderboard is live [here](http://tommaso-soru.it/projects/excusestoeat/).
 
+![ExcusesToEat Live Leaderboard](https://raw.githubusercontent.com/mommi84/quick-and-dirty/master/excusestoeat/leaderboard.png)
+
 It is based on:
-* Google Docs APIs
+* Google Calendar APIs
