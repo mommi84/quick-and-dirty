@@ -77,6 +77,7 @@ def main():
 
     # print('The title of the document is: {}'.format(document.get('title')))
 
+    print("Title\tYear\tIMDB\tRT")
     body = document.get('body')
     for r in body['content']:
         if 'paragraph' in r:
