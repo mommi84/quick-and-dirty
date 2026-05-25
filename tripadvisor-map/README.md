@@ -28,3 +28,27 @@ collects every city name, and copies the JSON to your clipboard. Save that as
 - `pins` — every map marker, with pixel offset + type (`been` / `fave`).
   Pixel offsets preserve relative geography but can't be reliably reprojected
   to lat/lng without the map div size at snapshot time.
+
+## What's in `cities.json` (from `dump-from-browser.js`)
+
+One record per pinned city, with:
+
+| field          | source                                                     |
+|----------------|------------------------------------------------------------|
+| `geoId`        | `data-ox-id` on the tile (TripAdvisor location id)         |
+| `name`         | the raw "City, Country" string                             |
+| `city`         | name split on the last comma                               |
+| `country`      | name split on the last comma                               |
+| `pinType`      | `fave` if the tile has `sprite-faveBox`, else `been`       |
+| `contribCount` | number of contributions (reviews/photos) for this city     |
+| `photoUrl`     | hero photo URL                                             |
+| `photoDate`    | `YYYY-MM-DD` parsed from the photo filename **iff** it is  |
+|                | a user upload (filename contains `YYYYMMDD-HHMMSS`).       |
+|                | Stock TripAdvisor photos won't have a date.                |
+| `memberPage`   | link to your member-citypage for this city                 |
+
+**Note on dates:** TripAdvisor's TravelMap doesn't store the date you pinned a
+city — there's no such field in the DOM or API. The `photoDate` field is a
+best-effort proxy (it tells you "you uploaded a photo here on this date", which
+usually means you visited shortly before). For cities without a user photo, no
+date can be recovered automatically.

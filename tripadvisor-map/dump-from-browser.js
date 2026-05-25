@@ -2,36 +2,29 @@
 //   https://www.tripadvisor.co.uk/TravelMap-a_uid.343D39EF5D23BC304D551877E8088C9E
 //
 // Scrolls the page (and any inner scrollers) to trigger lazy-loaded city tiles,
-// then harvests every city name it can find from any of the known TripAdvisor
-// markup variants. Logs progress, copies the result to your clipboard.
+// then harvests every pinned city with all available metadata:
+//   - geoId        (TripAdvisor location id)
+//   - name         (raw "City, Country" string from the tile)
+//   - city         (split from name)
+//   - country      (split from name)
+//   - pinType      ("fave" or "been")
+//   - contribCount (TripAdvisor reviews/photos you contributed for this city)
+//   - photoUrl     (hero image URL)
+//   - photoDate    (if the photo is a user upload, YYYY-MM-DD parsed from the
+//                   filename — TripAdvisor doesn't store the actual pin date,
+//                   so this is the best "when did you go" proxy available)
+//   - memberPage   (link to your member-citypage for this geo)
+//
+// Logs progress and copies the full JSON to your clipboard. Save as
+// `tripadvisor-map/cities.json` and push.
 
 (async () => {
   const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-  // Every selector the TravelMap page is known to use for a pinned-city name.
-  const SELECTORS = [
-    '[data-ox-name="modules.membercenter.CityTiles:eachTile"] .name',
-    '[data-ox-name="modules.membercenter.CityTiles:eachTile"] .cityName',
-    '[data-ox-name="modules.travelmap.PinnableList:eachPin"] .locationName',
-    '.cityHero .name',
-    '.cityHero .cityName',
-    '.cityName',
-    '.locationName',
-    'div.name',
-  ];
+  const TILE_SEL = '[data-ox-name="modules.membercenter.CityTiles:eachTile"]';
+  const FALLBACK_NAME_SELS = ['.cityName', '.name', '.locationName'];
 
-  const harvest = () => {
-    const found = new Map();           // text -> selector that found it
-    for (const sel of SELECTORS) {
-      for (const el of document.querySelectorAll(sel)) {
-        const t = (el.textContent || '').trim();
-        if (t && t.length < 120 && !found.has(t)) found.set(t, sel);
-      }
-    }
-    return found;
-  };
-
-  const findScrollableAncestor = el => {
+  const findScrollable = el => {
     while (el && el !== document.body) {
       const s = getComputedStyle(el);
       if (/(auto|scroll)/.test(s.overflowY) && el.scrollHeight > el.clientHeight + 4) return el;
@@ -40,57 +33,109 @@
     return null;
   };
 
-  // Step 1: scroll the main page to the bottom so the city-tile section mounts.
-  console.log('[dump] scrolling main page to force-mount sections...');
+  // ---------- scroll the main page first ----------
+  console.log('[dump] scrolling main page...');
   for (let i = 0; i < 30; i++) {
     window.scrollTo(0, document.body.scrollHeight);
     await sleep(300);
-    if (harvest().size > 0) break;
+    if (document.querySelector(TILE_SEL)) break;
   }
 
-  let snapshot = harvest();
-  console.log(`[dump] after main scroll: ${snapshot.size} names`);
-
-  if (snapshot.size === 0) {
-    // Helpful diagnostics
-    const hints = {
-      ox_modules: [...document.querySelectorAll('[data-ox-name]')]
-        .map(e => e.dataset.oxName).filter((v,i,a)=>a.indexOf(v)===i),
-      iframes:   document.querySelectorAll('iframe').length,
-      bodyChars: document.body && document.body.innerText.length,
-    };
-    console.warn('[dump] no city names found in DOM. Hints:', hints);
-    console.warn('       - Make sure you are signed into TripAdvisor (your map URL).');
-    console.warn('       - Try scrolling the page manually until you see the city tiles, then re-run.');
+  let anyTile = document.querySelector(TILE_SEL);
+  if (!anyTile) {
+    // Diagnostics if the tile section never mounted
+    console.warn('[dump] No city tiles found. DOM hints:', {
+      ox_modules: [...new Set([...document.querySelectorAll('[data-ox-name]')]
+                    .map(e => e.dataset.oxName))],
+      iframes: document.querySelectorAll('iframe').length,
+      bodyChars: document.body.innerText.length,
+    });
+    console.warn('       Scroll manually to the city list section and re-run.');
     return;
   }
 
-  // Step 2: find the inner scrollable container holding the tiles and scroll it.
-  const sampleEl = document.querySelector(snapshot.values().next().value)
-                || document.querySelector('.name');
-  const inner = findScrollableAncestor(sampleEl.parentElement);
+  // ---------- scroll inner list until tile count stabilises ----------
+  const inner = findScrollable(anyTile.parentElement);
   if (inner) console.log('[dump] inner scroller:', inner);
 
-  let prev = -1, stable = 0;
+  let prevCount = -1, stable = 0;
   for (let i = 0; i < 500 && stable < 6; i++) {
     if (inner) inner.scrollTop = inner.scrollHeight;
     window.scrollTo(0, document.body.scrollHeight);
     await sleep(350);
-    snapshot = harvest();
-    if (snapshot.size === prev) stable++; else { stable = 0; prev = snapshot.size; }
-    if (i % 5 === 0) console.log(`[dump] pass ${i}: ${snapshot.size} names`);
+    const n = document.querySelectorAll(TILE_SEL).length;
+    if (n === prevCount) stable++; else { stable = 0; prevCount = n; }
+    if (i % 5 === 0) console.log(`[dump] pass ${i}: ${n} tiles`);
   }
 
-  const cities = [...snapshot.keys()].sort();
-  const bySelector = {};
-  for (const [name, sel] of snapshot) (bySelector[sel] = bySelector[sel] || []).push(name);
+  // ---------- harvest ----------
+  const PHOTO_DATE_RE = /\/(\d{4})(\d{2})(\d{2})-\d{6}/;
 
-  const result = { cityCount: cities.length, cities, bySelector };
-  console.log(`[dump] DONE - ${cities.length} unique names`);
+  const tiles = [...document.querySelectorAll(TILE_SEL)];
+  const cities = [];
+  const seen = new Set();
+  for (const tile of tiles) {
+    const geoId = tile.dataset.oxId || tile.getAttribute('name') || null;
+
+    let rawName = '';
+    for (const sel of FALLBACK_NAME_SELS) {
+      const n = tile.querySelector(sel);
+      if (n && n.textContent.trim()) { rawName = n.textContent.trim(); break; }
+    }
+    if (!rawName) continue;
+
+    let city = rawName, country = '';
+    const lastComma = rawName.lastIndexOf(',');
+    if (lastComma > -1) {
+      city = rawName.slice(0, lastComma).trim();
+      country = rawName.slice(lastComma + 1).trim();
+    }
+
+    const pinFlag = tile.querySelector('.pinFlag');
+    let pinType = 'been';
+    if (pinFlag) {
+      if (pinFlag.classList.contains('sprite-faveBox')) pinType = 'fave';
+      else if (pinFlag.classList.contains('sprite-beenBox')) pinType = 'been';
+    }
+
+    const contribEl = tile.querySelector('.contributionCount');
+    const contribCount = contribEl ? parseInt(contribEl.textContent, 10) || 0 : 0;
+
+    const photoImg = tile.querySelector('.cityHeroImg, .citySmallImg');
+    const photoUrl = photoImg ? photoImg.src : null;
+    let photoDate = null;
+    if (photoUrl) {
+      const m = photoUrl.match(PHOTO_DATE_RE);
+      if (m) photoDate = `${m[1]}-${m[2]}-${m[3]}`;
+    }
+
+    const link = tile.querySelector('a[href*="members-citypage"]');
+    const memberPage = link ? link.href : null;
+
+    const key = `${geoId}|${rawName}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+
+    cities.push({ geoId, name: rawName, city, country, pinType,
+                  contribCount, photoUrl, photoDate, memberPage });
+  }
+
+  cities.sort((a, b) => a.name.localeCompare(b.name));
+
+  const stats = {
+    total: cities.length,
+    been: cities.filter(c => c.pinType === 'been').length,
+    fave: cities.filter(c => c.pinType === 'fave').length,
+    withPhotoDate: cities.filter(c => c.photoDate).length,
+    countries: [...new Set(cities.map(c => c.country).filter(Boolean))].sort(),
+  };
+
+  const result = { stats, cities };
+  console.log(`[dump] DONE - ${cities.length} cities (${stats.fave} fave, ${stats.withPhotoDate} with photo-date)`);
   console.log(JSON.stringify(result, null, 2));
   try {
     await navigator.clipboard.writeText(JSON.stringify(result, null, 2));
-    console.log('[dump] copied to clipboard.');
+    console.log('[dump] copied to clipboard. Save as tripadvisor-map/cities.json');
   } catch (e) {
     console.warn('[dump] clipboard copy failed; copy the JSON above manually.', e);
   }
