@@ -1,0 +1,3112 @@
+{
+  "stats": {
+    "total": 422,
+    "been": 415,
+    "fave": 7,
+    "withCountry": 210,
+    "withContinent": 210,
+    "withPhotoDate": 0,
+    "countries": [
+      "Argentina",
+      "Croatia",
+      "Czech Republic",
+      "France",
+      "Germany",
+      "Greece",
+      "Ireland",
+      "Italy",
+      "Japan",
+      "Malta",
+      "Monaco",
+      "Poland",
+      "Portugal",
+      "San Marino",
+      "Spain",
+      "Switzerland",
+      "United Kingdom",
+      "United States",
+      "Vatican City"
+    ]
+  },
+  "cities": [
+    {
+      "name": "Nara, Japan",
+      "city": "Nara",
+      "country": "Japan",
+      "region": "Nara Prefecture",
+      "continent": "Asia",
+      "pinType": "been"
+    },
+    {
+      "name": "Osaka, Japan",
+      "city": "Osaka",
+      "country": "Japan",
+      "region": "Osaka Prefecture",
+      "continent": "Asia",
+      "pinType": "been"
+    },
+    {
+      "name": "Krk, Croatia",
+      "city": "Krk",
+      "country": "Croatia",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Njivice, Croatia",
+      "city": "Njivice",
+      "country": "Croatia",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Plitvica, Croatia",
+      "city": "Plitvica",
+      "country": "Croatia",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Zagreb, Croatia",
+      "city": "Zagreb",
+      "country": "Croatia",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Prague, Czech Republic",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "continent": "Europe",
+      "pinType": "fave"
+    },
+    {
+      "name": "Aix-en-Provence, France",
+      "city": "Aix-en-Provence",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Allevard, France",
+      "city": "Allevard",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Arles, France",
+      "city": "Arles",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Avignon, France",
+      "city": "Avignon",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bastia, France",
+      "city": "Bastia",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bonifacio, France",
+      "city": "Bonifacio",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Calvi, France",
+      "city": "Calvi",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Carcassonne Center, France",
+      "city": "Carcassonne Center",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Corte, France",
+      "city": "Corte",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Ile Rousse, France",
+      "city": "Ile Rousse",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lumio, France",
+      "city": "Lumio",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Nice, France",
+      "city": "Nice",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "fave"
+    },
+    {
+      "name": "Porto-Vecchio, France",
+      "city": "Porto-Vecchio",
+      "country": "France",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Annaberg-Buchholz, Germany",
+      "city": "Annaberg-Buchholz",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Ansbach, Germany",
+      "city": "Ansbach",
+      "country": "Germany",
+      "region": "Bavaria",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Berlin, Germany",
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe",
+      "pinType": "fave"
+    },
+    {
+      "name": "Chemnitz, Germany",
+      "city": "Chemnitz",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Coburg, Germany",
+      "city": "Coburg",
+      "country": "Germany",
+      "region": "Bavaria",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Dresden, Germany",
+      "city": "Dresden",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Freiburg im Breisgau, Germany",
+      "city": "Freiburg im Breisgau",
+      "country": "Germany",
+      "region": "Baden-Wurttemberg",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Glauchau, Germany",
+      "city": "Glauchau",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Goettingen, Germany",
+      "city": "Goettingen",
+      "country": "Germany",
+      "region": "Lower Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Hamburg, Germany",
+      "city": "Hamburg",
+      "country": "Germany",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Hartenstein, Germany",
+      "city": "Hartenstein",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Hildesheim, Germany",
+      "city": "Hildesheim",
+      "country": "Germany",
+      "region": "Lower Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Leipzig, Germany",
+      "city": "Leipzig",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lindau, Germany",
+      "city": "Lindau",
+      "country": "Germany",
+      "region": "Bavaria",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Munich, Germany",
+      "city": "Munich",
+      "country": "Germany",
+      "region": "Bavaria",
+      "continent": "Europe",
+      "pinType": "fave"
+    },
+    {
+      "name": "Oldenburg, Germany",
+      "city": "Oldenburg",
+      "country": "Germany",
+      "region": "Lower Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Sandstedt, Germany",
+      "city": "Sandstedt",
+      "country": "Germany",
+      "region": "Lower Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Seiffen, Germany",
+      "city": "Seiffen",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Stuttgart, Germany",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "region": "Baden-Wurttemberg",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Wacken, Germany",
+      "city": "Wacken",
+      "country": "Germany",
+      "region": "Schleswig-Holstein",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Zwickau, Germany",
+      "city": "Zwickau",
+      "country": "Germany",
+      "region": "Saxony",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Athens, Greece",
+      "city": "Athens",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Chania Town, Greece",
+      "city": "Chania Town",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Chios, Greece",
+      "city": "Chios",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Igoumenitsa, Greece",
+      "city": "Igoumenitsa",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lefkada, Greece",
+      "city": "Lefkada",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lipsi, Greece",
+      "city": "Lipsi",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Patras, Greece",
+      "city": "Patras",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Piraeus, Greece",
+      "city": "Piraeus",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Skopelos, Greece",
+      "city": "Skopelos",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Skyros, Greece",
+      "city": "Skyros",
+      "country": "Greece",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bray, Ireland",
+      "city": "Bray",
+      "country": "Ireland",
+      "region": "Province of Leinster",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Dublin, Ireland",
+      "city": "Dublin",
+      "country": "Ireland",
+      "region": "Province of Leinster",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Agrigento, Italy",
+      "city": "Agrigento",
+      "country": "Italy",
+      "region": "Province of Agrigento",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Alessandria, Italy",
+      "city": "Alessandria",
+      "country": "Italy",
+      "region": "Province of Alessandria",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Alghero, Italy",
+      "city": "Alghero",
+      "country": "Italy",
+      "region": "Province of Sassari",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Angera, Italy",
+      "city": "Angera",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Arbatax, Italy",
+      "city": "Arbatax",
+      "country": "Italy",
+      "region": "Province of Ogliastra",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Arenzano, Italy",
+      "city": "Arenzano",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Arona, Italy",
+      "city": "Arona",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Avola, Italy",
+      "city": "Avola",
+      "country": "Italy",
+      "region": "Province of Syracuse",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bassano Del Grappa, Italy",
+      "city": "Bassano Del Grappa",
+      "country": "Italy",
+      "region": "Province of Vicenza",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Baveno, Italy",
+      "city": "Baveno",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bergamo, Italy",
+      "city": "Bergamo",
+      "country": "Italy",
+      "region": "Province of Bergamo",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Biella, Italy",
+      "city": "Biella",
+      "country": "Italy",
+      "region": "Province of Biella",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bologna, Italy",
+      "city": "Bologna",
+      "country": "Italy",
+      "region": "Province of Bologna",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Borgomanero, Italy",
+      "city": "Borgomanero",
+      "country": "Italy",
+      "region": "Province of Novara",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bormio, Italy",
+      "city": "Bormio",
+      "country": "Italy",
+      "region": "Province of Sondrio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bosa, Italy",
+      "city": "Bosa",
+      "country": "Italy",
+      "region": "Province of Oristano",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Brinzio, Italy",
+      "city": "Brinzio",
+      "country": "Italy",
+      "region": "Province of Varese",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Budoni, Italy",
+      "city": "Budoni",
+      "country": "Italy",
+      "region": "Province of Olbia-Tempio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Cagliari, Italy",
+      "city": "Cagliari",
+      "country": "Italy",
+      "region": "Province of Cagliari",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Calizzano, Italy",
+      "city": "Calizzano",
+      "country": "Italy",
+      "region": "Province of Savona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Caltagirone, Italy",
+      "city": "Caltagirone",
+      "country": "Italy",
+      "region": "Province of Catania",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Campione d'Italia, Italy",
+      "city": "Campione d'Italia",
+      "country": "Italy",
+      "region": "Province of Como",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Cannigione, Italy",
+      "city": "Cannigione",
+      "country": "Italy",
+      "region": "Province of Olbia-Tempio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Castelfranco Veneto, Italy",
+      "city": "Castelfranco Veneto",
+      "country": "Italy",
+      "region": "Province of Treviso",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Castell'Arquato, Italy",
+      "city": "Castell'Arquato",
+      "country": "Italy",
+      "region": "Province of Piacenza",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Castelsardo, Italy",
+      "city": "Castelsardo",
+      "country": "Italy",
+      "region": "Province of Sassari",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Castiglione Delle Stiviere, Italy",
+      "city": "Castiglione Delle Stiviere",
+      "country": "Italy",
+      "region": "Province of Mantua",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Catania, Italy",
+      "city": "Catania",
+      "country": "Italy",
+      "region": "Province of Catania",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Cinisello Balsamo, Italy",
+      "city": "Cinisello Balsamo",
+      "country": "Italy",
+      "region": "Province of Milan",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Como, Italy",
+      "city": "Como",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Cuasso al Monte, Italy",
+      "city": "Cuasso al Monte",
+      "country": "Italy",
+      "region": "Province of Varese",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Deiva Marina, Italy",
+      "city": "Deiva Marina",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Domodossola, Italy",
+      "city": "Domodossola",
+      "country": "Italy",
+      "region": "Province of Verbano-Cusio-Ossola",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Donoratico, Italy",
+      "city": "Donoratico",
+      "country": "Italy",
+      "region": "Province of Livorno",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Erice, Italy",
+      "city": "Erice",
+      "country": "Italy",
+      "region": "Province of Trapani",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Florence, Italy",
+      "city": "Florence",
+      "country": "Italy",
+      "region": "Province of Florence",
+      "continent": "Europe",
+      "pinType": "fave"
+    },
+    {
+      "name": "Follonica, Italy",
+      "city": "Follonica",
+      "country": "Italy",
+      "region": "Province of Grosseto",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Gallarate, Italy",
+      "city": "Gallarate",
+      "country": "Italy",
+      "region": "Province of Varese",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Gela, Italy",
+      "city": "Gela",
+      "country": "Italy",
+      "region": "Province of Caltanissetta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Genga, Italy",
+      "city": "Genga",
+      "country": "Italy",
+      "region": "Province of Ancona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Genoa, Italy",
+      "city": "Genoa",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Grosio, Italy",
+      "city": "Grosio",
+      "country": "Italy",
+      "region": "Province of Sondrio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Laigueglia, Italy",
+      "city": "Laigueglia",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lanusei, Italy",
+      "city": "Lanusei",
+      "country": "Italy",
+      "region": "Province of Ogliastra",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lavena Ponte Tresa, Italy",
+      "city": "Lavena Ponte Tresa",
+      "country": "Italy",
+      "region": "Province of Varese",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Laveno-Mombello, Italy",
+      "city": "Laveno-Mombello",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lecco, Italy",
+      "city": "Lecco",
+      "country": "Italy",
+      "region": "Province of Lecco",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Livigno, Italy",
+      "city": "Livigno",
+      "country": "Italy",
+      "region": "Province of Sondrio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Loano, Italy",
+      "city": "Loano",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Luino, Italy",
+      "city": "Luino",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Macugnaga, Italy",
+      "city": "Macugnaga",
+      "country": "Italy",
+      "region": "Province of Verbano-Cusio-Ossola",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Malnate, Italy",
+      "city": "Malnate",
+      "country": "Italy",
+      "region": "Province of Varese",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Marina di Ragusa, Italy",
+      "city": "Marina di Ragusa",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Merano, Italy",
+      "city": "Merano",
+      "country": "Italy",
+      "region": "Province of South Tyrol",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Messina, Italy",
+      "city": "Messina",
+      "country": "Italy",
+      "region": "Province of Messina",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Milan, Italy",
+      "city": "Milan",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Modica, Italy",
+      "city": "Modica",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Montefiascone, Italy",
+      "city": "Montefiascone",
+      "country": "Italy",
+      "region": "Province of Viterbo",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Nicotera, Italy",
+      "city": "Nicotera",
+      "country": "Italy",
+      "region": "Province of Vibo Valentia",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Noto, Italy",
+      "city": "Noto",
+      "country": "Italy",
+      "region": "Province of Syracuse",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Novara, Italy",
+      "city": "Novara",
+      "country": "Italy",
+      "region": "Province of Novara",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Numana, Italy",
+      "city": "Numana",
+      "country": "Italy",
+      "region": "Province of Ancona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Nuoro, Italy",
+      "city": "Nuoro",
+      "country": "Italy",
+      "region": "Province of Nuoro",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Olbia, Italy",
+      "city": "Olbia",
+      "country": "Italy",
+      "region": "Province of Olbia-Tempio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Orgosolo, Italy",
+      "city": "Orgosolo",
+      "country": "Italy",
+      "region": "Province of Nuoro",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Oristano, Italy",
+      "city": "Oristano",
+      "country": "Italy",
+      "region": "Province of Oristano",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Orosei, Italy",
+      "city": "Orosei",
+      "country": "Italy",
+      "region": "Province of Nuoro",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Padua, Italy",
+      "city": "Padua",
+      "country": "Italy",
+      "region": "Province of Padua",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Peschiera del Garda, Italy",
+      "city": "Peschiera del Garda",
+      "country": "Italy",
+      "region": "Province of Verona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Piacenza, Italy",
+      "city": "Piacenza",
+      "country": "Italy",
+      "region": "Province of Piacenza",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Piazza Armerina, Italy",
+      "city": "Piazza Armerina",
+      "country": "Italy",
+      "region": "Province of Enna",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Ponte dell'Olio, Italy",
+      "city": "Ponte dell'Olio",
+      "country": "Italy",
+      "region": "Province of Piacenza",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Porto Ceresio, Italy",
+      "city": "Porto Ceresio",
+      "country": "Italy",
+      "region": "Province of Varese",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Porto Cervo, Italy",
+      "city": "Porto Cervo",
+      "country": "Italy",
+      "region": "Province of Olbia-Tempio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Porto Torres, Italy",
+      "city": "Porto Torres",
+      "country": "Italy",
+      "region": "Province of Sassari",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Porto Venere, Italy",
+      "city": "Porto Venere",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Punta Braccetto, Italy",
+      "city": "Punta Braccetto",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Punta Secca, Italy",
+      "city": "Punta Secca",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Ragusa, Italy",
+      "city": "Ragusa",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Rome, Italy",
+      "city": "Rome",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "fave"
+    },
+    {
+      "name": "Rovigo, Italy",
+      "city": "Rovigo",
+      "country": "Italy",
+      "region": "Province of Rovigo",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "San Teodoro, Italy",
+      "city": "San Teodoro",
+      "country": "Italy",
+      "region": "Province of Olbia-Tempio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "San Vero Milis, Italy",
+      "city": "San Vero Milis",
+      "country": "Italy",
+      "region": "Province of Oristano",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "San Vincenzo, Italy",
+      "city": "San Vincenzo",
+      "country": "Italy",
+      "region": "Province of Livorno",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Sanremo, Italy",
+      "city": "Sanremo",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Santa Croce Camerina, Italy",
+      "city": "Santa Croce Camerina",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Santa Maria della Versa, Italy",
+      "city": "Santa Maria della Versa",
+      "country": "Italy",
+      "region": "Province of Pavia",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Santa Teresa Gallura, Italy",
+      "city": "Santa Teresa Gallura",
+      "country": "Italy",
+      "region": "Province of Olbia-Tempio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Scoglitti, Italy",
+      "city": "Scoglitti",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Sesto San Giovanni, Italy",
+      "city": "Sesto San Giovanni",
+      "country": "Italy",
+      "region": "Province of Milan",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Siniscola, Italy",
+      "city": "Siniscola",
+      "country": "Italy",
+      "region": "Province of Nuoro",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Sirmione, Italy",
+      "city": "Sirmione",
+      "country": "Italy",
+      "region": "Province of Brescia",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Sirolo, Italy",
+      "city": "Sirolo",
+      "country": "Italy",
+      "region": "Province of Ancona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Stintino, Italy",
+      "city": "Stintino",
+      "country": "Italy",
+      "region": "Province of Sassari",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Syracuse, Italy",
+      "city": "Syracuse",
+      "country": "Italy",
+      "region": "Province of Syracuse",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Tempio Pausania, Italy",
+      "city": "Tempio Pausania",
+      "country": "Italy",
+      "region": "Province of Olbia-Tempio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Tirano, Italy",
+      "city": "Tirano",
+      "country": "Italy",
+      "region": "Province of Sondrio",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Tortoli, Italy",
+      "city": "Tortoli",
+      "country": "Italy",
+      "region": "Province of Ogliastra",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Trento, Italy",
+      "city": "Trento",
+      "country": "Italy",
+      "region": "Province of Trento",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Treviso, Italy",
+      "city": "Treviso",
+      "country": "Italy",
+      "region": "Province of Treviso",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Trieste, Italy",
+      "city": "Trieste",
+      "country": "Italy",
+      "region": "Province of Trieste",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Turin, Italy",
+      "city": "Turin",
+      "country": "Italy",
+      "region": "Province of Turin",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Valledoria, Italy",
+      "city": "Valledoria",
+      "country": "Italy",
+      "region": "Province of Sassari",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Varazze, Italy",
+      "city": "Varazze",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Varese, Italy",
+      "city": "Varese",
+      "country": "Italy",
+      "region": "Province of Varese",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Venice, Italy",
+      "city": "Venice",
+      "country": "Italy",
+      "region": "Province of Venice",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Verbania, Italy",
+      "city": "Verbania",
+      "country": "Italy",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Verona, Italy",
+      "city": "Verona",
+      "country": "Italy",
+      "region": "Province of Verona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Villadose, Italy",
+      "city": "Villadose",
+      "country": "Italy",
+      "region": "Province of Rovigo",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Villafranca di Verona, Italy",
+      "city": "Villafranca di Verona",
+      "country": "Italy",
+      "region": "Province of Verona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Viterbo, Italy",
+      "city": "Viterbo",
+      "country": "Italy",
+      "region": "Province of Viterbo",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Vittoria, Italy",
+      "city": "Vittoria",
+      "country": "Italy",
+      "region": "Province of Ragusa",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Island of Gozo, Malta",
+      "city": "Island of Gozo",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Marsascala, Malta",
+      "city": "Marsascala",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Marsaxlokk, Malta",
+      "city": "Marsaxlokk",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Mdina, Malta",
+      "city": "Mdina",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Mellieha, Malta",
+      "city": "Mellieha",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Mosta, Malta",
+      "city": "Mosta",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Saint Julian's, Malta",
+      "city": "Saint Julian's",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Valletta, Malta",
+      "city": "Valletta",
+      "country": "Malta",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Monte-Carlo, Monaco",
+      "city": "Monte-Carlo",
+      "country": "Monaco",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Warsaw, Poland",
+      "city": "Warsaw",
+      "country": "Poland",
+      "region": "Mazovia Province",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Braga, Portugal",
+      "city": "Braga",
+      "country": "Portugal",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Cascais, Portugal",
+      "city": "Cascais",
+      "country": "Portugal",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Porto, Portugal",
+      "city": "Porto",
+      "country": "Portugal",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Tomar, Portugal",
+      "city": "Tomar",
+      "country": "Portugal",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "City of San Marino, San Marino",
+      "city": "City of San Marino",
+      "country": "San Marino",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Barcelona, Spain",
+      "city": "Barcelona",
+      "country": "Spain",
+      "region": "Province of Barcelona",
+      "continent": "Europe",
+      "pinType": "fave"
+    },
+    {
+      "name": "Es Pujols, Spain",
+      "city": "Es Pujols",
+      "country": "Spain",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Ibiza Town, Spain",
+      "city": "Ibiza Town",
+      "country": "Spain",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "L'Estartit, Spain",
+      "city": "L'Estartit",
+      "country": "Spain",
+      "region": "Province of Girona",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "La Savina, Spain",
+      "city": "La Savina",
+      "country": "Spain",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Palma de Mallorca, Spain",
+      "city": "Palma de Mallorca",
+      "country": "Spain",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Sant Ferran de ses Roques, Spain",
+      "city": "Sant Ferran de ses Roques",
+      "country": "Spain",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Sant Francesc de Formentera, Spain",
+      "city": "Sant Francesc de Formentera",
+      "country": "Spain",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Andeer, Switzerland",
+      "city": "Andeer",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Ascona, Switzerland",
+      "city": "Ascona",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Bellinzona, Switzerland",
+      "city": "Bellinzona",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Biasca, Switzerland",
+      "city": "Biasca",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Brunnen, Switzerland",
+      "city": "Brunnen",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Geneva, Switzerland",
+      "city": "Geneva",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Leukerbad, Switzerland",
+      "city": "Leukerbad",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Locarno, Switzerland",
+      "city": "Locarno",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lucerne, Switzerland",
+      "city": "Lucerne",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Lugano, Switzerland",
+      "city": "Lugano",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Morcote, Switzerland",
+      "city": "Morcote",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Ponte Tresa, Switzerland",
+      "city": "Ponte Tresa",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Poschiavo, Switzerland",
+      "city": "Poschiavo",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Schwyz, Switzerland",
+      "city": "Schwyz",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "St. Moritz, Switzerland",
+      "city": "St. Moritz",
+      "country": "Switzerland",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "London, United Kingdom",
+      "city": "London",
+      "country": "United Kingdom",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "name": "Vatican City, Vatican City",
+      "city": "Vatican City",
+      "country": "Vatican City",
+      "continent": "Europe",
+      "pinType": "been"
+    },
+    {
+      "geoId": "187209",
+      "name": "Aix-en-Provence",
+      "city": "Aix-en-Provence",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "196691",
+      "name": "Allevard",
+      "city": "Allevard",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1190120",
+      "name": "Andeer",
+      "city": "Andeer",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "664200",
+      "name": "Angera",
+      "city": "Angera",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "780707",
+      "name": "Arenzano",
+      "city": "Arenzano",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187211",
+      "name": "Arles",
+      "city": "Arles",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "616180",
+      "name": "Arona",
+      "city": "Arona",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "198865",
+      "name": "Ascona",
+      "city": "Ascona",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189400",
+      "name": "Athens",
+      "city": "Athens",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187212",
+      "name": "Avignon",
+      "city": "Avignon",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187281",
+      "name": "Baden-Wurttemberg: Freiburg im Breisgau",
+      "city": "Baden-Wurttemberg: Freiburg im Breisgau",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187291",
+      "name": "Baden-Wurttemberg: Stuttgart",
+      "city": "Baden-Wurttemberg: Stuttgart",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187141",
+      "name": "Bastia",
+      "city": "Bastia",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187294",
+      "name": "Bavaria: Ansbach",
+      "city": "Bavaria: Ansbach",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187303",
+      "name": "Bavaria: Coburg",
+      "city": "Bavaria: Coburg",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "198644",
+      "name": "Bavaria: Lindau",
+      "city": "Bavaria: Lindau",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187309",
+      "name": "Bavaria: Munich",
+      "city": "Bavaria: Munich",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187844",
+      "name": "Baveno",
+      "city": "Baveno",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "188093",
+      "name": "Bellinzona",
+      "city": "Bellinzona",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187323",
+      "name": "Berlin",
+      "city": "Berlin",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "229459",
+      "name": "Biasca",
+      "city": "Biasca",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "612416",
+      "name": "Bonifacio",
+      "city": "Bonifacio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189171",
+      "name": "Braga",
+      "city": "Braga",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "198804",
+      "name": "Brunnen",
+      "city": "Brunnen",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "312741",
+      "name": "Buenos Aires",
+      "city": "Buenos Aires",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "196482",
+      "name": "Calvi",
+      "city": "Calvi",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187151",
+      "name": "Carcassonne Center",
+      "city": "Carcassonne Center",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189154",
+      "name": "Cascais",
+      "city": "Cascais",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189415",
+      "name": "Chania Town",
+      "city": "Chania Town",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189476",
+      "name": "Chios",
+      "city": "Chios",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187809",
+      "name": "City of San Marino",
+      "city": "City of San Marino",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187835",
+      "name": "Como",
+      "city": "Como",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "635788",
+      "name": "Corte",
+      "city": "Corte",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1081168",
+      "name": "Deiva Marina",
+      "city": "Deiva Marina",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "673238",
+      "name": "Es Pujols",
+      "city": "Es Pujols",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "188057",
+      "name": "Geneva",
+      "city": "Geneva",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187823",
+      "name": "Genoa",
+      "city": "Genoa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187264",
+      "name": "Grenoble",
+      "city": "Grenoble",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187331",
+      "name": "Hamburg",
+      "city": "Hamburg",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "664638",
+      "name": "Ibiza Town",
+      "city": "Ibiza Town",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "735758",
+      "name": "Igoumenitsa",
+      "city": "Igoumenitsa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "635566",
+      "name": "Ile Rousse",
+      "city": "Ile Rousse",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "190313",
+      "name": "Island of Gozo",
+      "city": "Island of Gozo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1067956",
+      "name": "Krk",
+      "city": "Krk",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1188766",
+      "name": "La Savina",
+      "city": "La Savina",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194786",
+      "name": "Laigueglia",
+      "city": "Laigueglia",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "664206",
+      "name": "Laveno-Mombello",
+      "city": "Laveno-Mombello",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189460",
+      "name": "Lefkada",
+      "city": "Lefkada",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "198859",
+      "name": "Leukerbad",
+      "city": "Leukerbad",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1152207",
+      "name": "Lipsi",
+      "city": "Lipsi",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189158",
+      "name": "Lisbon",
+      "city": "Lisbon",
+      "pinType": "been",
+      "contribCount": 1,
+      "memberPage": "https://www.tripadvisor.co.uk/members-citypage/mommi84/g189158"
+    },
+    {
+      "geoId": "194801",
+      "name": "Loano",
+      "city": "Loano",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "188094",
+      "name": "Locarno",
+      "city": "Locarno",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "186338",
+      "name": "London",
+      "city": "London",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187350",
+      "name": "Lower Saxony: Goettingen",
+      "city": "Lower Saxony: Goettingen",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187352",
+      "name": "Lower Saxony: Hildesheim",
+      "city": "Lower Saxony: Hildesheim",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187353",
+      "name": "Lower Saxony: Oldenburg",
+      "city": "Lower Saxony: Oldenburg",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "4841779",
+      "name": "Lower Saxony: Sandstedt",
+      "city": "Lower Saxony: Sandstedt",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "188064",
+      "name": "Lucerne",
+      "city": "Lucerne",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "188095",
+      "name": "Lugano",
+      "city": "Lugano",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "616176",
+      "name": "Luino",
+      "city": "Luino",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "776031",
+      "name": "Lumio",
+      "city": "Lumio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "227896",
+      "name": "Marsascala",
+      "city": "Marsascala",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "190323",
+      "name": "Marsaxlokk",
+      "city": "Marsaxlokk",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "274856",
+      "name": "Mazovia Province: Warsaw",
+      "city": "Mazovia Province: Warsaw",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "190324",
+      "name": "Mdina",
+      "city": "Mdina",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "230152",
+      "name": "Mellieha",
+      "city": "Mellieha",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187849",
+      "name": "Milan",
+      "city": "Milan",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "190409",
+      "name": "Monte-Carlo",
+      "city": "Monte-Carlo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1130037",
+      "name": "Morcote",
+      "city": "Morcote",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "190325",
+      "name": "Mosta",
+      "city": "Mosta",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "298198",
+      "name": "Nara Prefecture: Nara",
+      "city": "Nara Prefecture: Nara",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187234",
+      "name": "Nice",
+      "city": "Nice",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1067961",
+      "name": "Njivice",
+      "city": "Njivice",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "60763",
+      "name": "NY: New York City",
+      "city": "NY: New York City",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "298566",
+      "name": "Osaka Prefecture: Osaka",
+      "city": "Osaka Prefecture: Osaka",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "60789",
+      "name": "PA: Bethlehem",
+      "city": "PA: Bethlehem",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187463",
+      "name": "Palma de Mallorca",
+      "city": "Palma de Mallorca",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187147",
+      "name": "Paris",
+      "city": "Paris",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189488",
+      "name": "Patras",
+      "city": "Patras",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189403",
+      "name": "Piraeus",
+      "city": "Piraeus",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1190792",
+      "name": "Plitvica",
+      "city": "Plitvica",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "580367",
+      "name": "Ponte Tresa",
+      "city": "Ponte Tresa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189180",
+      "name": "Porto",
+      "city": "Porto",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194862",
+      "name": "Porto Venere",
+      "city": "Porto Venere",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "196484",
+      "name": "Porto-Vecchio",
+      "city": "Porto-Vecchio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "658759",
+      "name": "Poschiavo",
+      "city": "Poschiavo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "274707",
+      "name": "Prague",
+      "city": "Prague",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194662",
+      "name": "Province of Agrigento: Agrigento",
+      "city": "Province of Agrigento: Agrigento",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194208",
+      "name": "Province of Alessandria: Alessandria",
+      "city": "Province of Alessandria: Alessandria",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1568268",
+      "name": "Province of Ancona: Genga",
+      "city": "Province of Ancona: Genga",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194838",
+      "name": "Province of Ancona: Numana",
+      "city": "Province of Ancona: Numana",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608900",
+      "name": "Province of Ancona: Sirolo",
+      "city": "Province of Ancona: Sirolo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187497",
+      "name": "Province of Barcelona: Barcelona",
+      "city": "Province of Barcelona: Barcelona",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187830",
+      "name": "Province of Bergamo: Bergamo",
+      "city": "Province of Bergamo: Bergamo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1025226",
+      "name": "Province of Biella: Biella",
+      "city": "Province of Biella: Biella",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187801",
+      "name": "Province of Bologna: Bologna",
+      "city": "Province of Bologna: Bologna",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187842",
+      "name": "Province of Brescia: Sirmione",
+      "city": "Province of Brescia: Sirmione",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187881",
+      "name": "Province of Cagliari: Cagliari",
+      "city": "Province of Cagliari: Cagliari",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1096054",
+      "name": "Province of Caltanissetta: Gela",
+      "city": "Province of Caltanissetta: Gela",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "777678",
+      "name": "Province of Catania: Caltagirone",
+      "city": "Province of Catania: Caltagirone",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187888",
+      "name": "Province of Catania: Catania",
+      "city": "Province of Catania: Catania",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "946755",
+      "name": "Province of Como: Campione d'Italia",
+      "city": "Province of Como: Campione d'Italia",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "580232",
+      "name": "Province of Enna: Piazza Armerina",
+      "city": "Province of Enna: Piazza Armerina",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187895",
+      "name": "Province of Florence: Florence",
+      "city": "Province of Florence: Florence",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "644326",
+      "name": "Province of Girona: L'Estartit",
+      "city": "Province of Girona: L'Estartit",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194764",
+      "name": "Province of Grosseto: Follonica",
+      "city": "Province of Grosseto: Follonica",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187836",
+      "name": "Province of Lecco: Lecco",
+      "city": "Province of Lecco: Lecco",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "212098",
+      "name": "Province of Leinster: Bray",
+      "city": "Province of Leinster: Bray",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "186605",
+      "name": "Province of Leinster: Dublin",
+      "city": "Province of Leinster: Dublin",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1092805",
+      "name": "Province of Livorno: Donoratico",
+      "city": "Province of Livorno: Donoratico",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194901",
+      "name": "Province of Livorno: San Vincenzo",
+      "city": "Province of Livorno: San Vincenzo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1053091",
+      "name": "Province of Mantua: Castiglione Delle Stiviere",
+      "city": "Province of Mantua: Castiglione Delle Stiviere",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187889",
+      "name": "Province of Messina: Messina",
+      "city": "Province of Messina: Messina",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1053438",
+      "name": "Province of Milan: Cinisello Balsamo",
+      "city": "Province of Milan: Cinisello Balsamo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608899",
+      "name": "Province of Milan: Sesto San Giovanni",
+      "city": "Province of Milan: Sesto San Giovanni",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1131346",
+      "name": "Province of Novara: Borgomanero",
+      "city": "Province of Novara: Borgomanero",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194836",
+      "name": "Province of Novara: Novara",
+      "city": "Province of Novara: Novara",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187882",
+      "name": "Province of Nuoro: Nuoro",
+      "city": "Province of Nuoro: Nuoro",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1065336",
+      "name": "Province of Nuoro: Orgosolo",
+      "city": "Province of Nuoro: Orgosolo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "670562",
+      "name": "Province of Nuoro: Orosei",
+      "city": "Province of Nuoro: Orosei",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "616187",
+      "name": "Province of Nuoro: Siniscola",
+      "city": "Province of Nuoro: Siniscola",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608903",
+      "name": "Province of Ogliastra: Arbatax",
+      "city": "Province of Ogliastra: Arbatax",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "652015",
+      "name": "Province of Ogliastra: Lanusei",
+      "city": "Province of Ogliastra: Lanusei",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608926",
+      "name": "Province of Ogliastra: Tortoli",
+      "city": "Province of Ogliastra: Tortoli",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "656838",
+      "name": "Province of Olbia-Tempio: Budoni",
+      "city": "Province of Olbia-Tempio: Budoni",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "671579",
+      "name": "Province of Olbia-Tempio: Cannigione",
+      "city": "Province of Olbia-Tempio: Cannigione",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187883",
+      "name": "Province of Olbia-Tempio: Olbia",
+      "city": "Province of Olbia-Tempio: Olbia",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194856",
+      "name": "Province of Olbia-Tempio: Porto Cervo",
+      "city": "Province of Olbia-Tempio: Porto Cervo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "652016",
+      "name": "Province of Olbia-Tempio: San Teodoro",
+      "city": "Province of Olbia-Tempio: San Teodoro",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608922",
+      "name": "Province of Olbia-Tempio: Santa Teresa Gallura",
+      "city": "Province of Olbia-Tempio: Santa Teresa Gallura",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "776125",
+      "name": "Province of Olbia-Tempio: Tempio Pausania",
+      "city": "Province of Olbia-Tempio: Tempio Pausania",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608906",
+      "name": "Province of Oristano: Bosa",
+      "city": "Province of Oristano: Bosa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187884",
+      "name": "Province of Oristano: Oristano",
+      "city": "Province of Oristano: Oristano",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1238433",
+      "name": "Province of Oristano: San Vero Milis",
+      "city": "Province of Oristano: San Vero Milis",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187867",
+      "name": "Province of Padua: Padua",
+      "city": "Province of Padua: Padua",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1759883",
+      "name": "Province of Pavia: Santa Maria della Versa",
+      "city": "Province of Pavia: Santa Maria della Versa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1131341",
+      "name": "Province of Piacenza: Castell'Arquato",
+      "city": "Province of Piacenza: Castell'Arquato",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187805",
+      "name": "Province of Piacenza: Piacenza",
+      "city": "Province of Piacenza: Piacenza",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "2387083",
+      "name": "Province of Piacenza: Ponte dell'Olio",
+      "city": "Province of Piacenza: Ponte dell'Olio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1097285",
+      "name": "Province of Ragusa: Marina di Ragusa",
+      "city": "Province of Ragusa: Marina di Ragusa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "616190",
+      "name": "Province of Ragusa: Modica",
+      "city": "Province of Ragusa: Modica",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1097309",
+      "name": "Province of Ragusa: Punta Braccetto",
+      "city": "Province of Ragusa: Punta Braccetto",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "2251274",
+      "name": "Province of Ragusa: Punta Secca",
+      "city": "Province of Ragusa: Punta Secca",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194872",
+      "name": "Province of Ragusa: Ragusa",
+      "city": "Province of Ragusa: Ragusa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1005933",
+      "name": "Province of Ragusa: Santa Croce Camerina",
+      "city": "Province of Ragusa: Santa Croce Camerina",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1006192",
+      "name": "Province of Ragusa: Scoglitti",
+      "city": "Province of Ragusa: Scoglitti",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1006191",
+      "name": "Province of Ragusa: Vittoria",
+      "city": "Province of Ragusa: Vittoria",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "230072",
+      "name": "Province of Rovigo: Rovigo",
+      "city": "Province of Rovigo: Rovigo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "2416249",
+      "name": "Province of Rovigo: Villadose",
+      "city": "Province of Rovigo: Villadose",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187880",
+      "name": "Province of Sassari: Alghero",
+      "city": "Province of Sassari: Alghero",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608909",
+      "name": "Province of Sassari: Castelsardo",
+      "city": "Province of Sassari: Castelsardo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1007733",
+      "name": "Province of Sassari: Porto Torres",
+      "city": "Province of Sassari: Porto Torres",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "608925",
+      "name": "Province of Sassari: Stintino",
+      "city": "Province of Sassari: Stintino",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "635630",
+      "name": "Province of Sassari: Valledoria",
+      "city": "Province of Sassari: Valledoria",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1140272",
+      "name": "Province of Savona: Calizzano",
+      "city": "Province of Savona: Calizzano",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194697",
+      "name": "Province of Sondrio: Bormio",
+      "city": "Province of Sondrio: Bormio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1081254",
+      "name": "Province of Sondrio: Grosio",
+      "city": "Province of Sondrio: Grosio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194799",
+      "name": "Province of Sondrio: Livigno",
+      "city": "Province of Sondrio: Livigno",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "666389",
+      "name": "Province of Sondrio: Tirano",
+      "city": "Province of Sondrio: Tirano",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187860",
+      "name": "Province of South Tyrol: Merano",
+      "city": "Province of South Tyrol: Merano",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1020247",
+      "name": "Province of Syracuse: Avola",
+      "city": "Province of Syracuse: Avola",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "652022",
+      "name": "Province of Syracuse: Noto",
+      "city": "Province of Syracuse: Noto",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187891",
+      "name": "Province of Syracuse: Syracuse",
+      "city": "Province of Syracuse: Syracuse",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194757",
+      "name": "Province of Trapani: Erice",
+      "city": "Province of Trapani: Erice",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187861",
+      "name": "Province of Trento: Trento",
+      "city": "Province of Trento: Trento",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "666330",
+      "name": "Province of Treviso: Castelfranco Veneto",
+      "city": "Province of Treviso: Castelfranco Veneto",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187869",
+      "name": "Province of Treviso: Treviso",
+      "city": "Province of Treviso: Treviso",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187813",
+      "name": "Province of Trieste: Trieste",
+      "city": "Province of Trieste: Trieste",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187855",
+      "name": "Province of Turin: Turin",
+      "city": "Province of Turin: Turin",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1768747",
+      "name": "Province of Varese: Brinzio",
+      "city": "Province of Varese: Brinzio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1509105",
+      "name": "Province of Varese: Cuasso al Monte",
+      "city": "Province of Varese: Cuasso al Monte",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "951317",
+      "name": "Province of Varese: Gallarate",
+      "city": "Province of Varese: Gallarate",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1055442",
+      "name": "Province of Varese: Lavena Ponte Tresa",
+      "city": "Province of Varese: Lavena Ponte Tresa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1199939",
+      "name": "Province of Varese: Malnate",
+      "city": "Province of Varese: Malnate",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1183712",
+      "name": "Province of Varese: Porto Ceresio",
+      "city": "Province of Varese: Porto Ceresio",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194942",
+      "name": "Province of Varese: Varese",
+      "city": "Province of Varese: Varese",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187870",
+      "name": "Province of Venice: Venice",
+      "city": "Province of Venice: Venice",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "681250",
+      "name": "Province of Verbano-Cusio-Ossola: Domodossola",
+      "city": "Province of Verbano-Cusio-Ossola: Domodossola",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1056169",
+      "name": "Province of Verbano-Cusio-Ossola: Macugnaga",
+      "city": "Province of Verbano-Cusio-Ossola: Macugnaga",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "635642",
+      "name": "Province of Verona: Peschiera del Garda",
+      "city": "Province of Verona: Peschiera del Garda",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187871",
+      "name": "Province of Verona: Verona",
+      "city": "Province of Verona: Verona",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "670667",
+      "name": "Province of Verona: Villafranca di Verona",
+      "city": "Province of Verona: Villafranca di Verona",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1062524",
+      "name": "Province of Vibo Valentia: Nicotera",
+      "city": "Province of Vibo Valentia: Nicotera",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194685",
+      "name": "Province of Vicenza: Bassano Del Grappa",
+      "city": "Province of Vicenza: Bassano Del Grappa",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "815534",
+      "name": "Province of Viterbo: Montefiascone",
+      "city": "Province of Viterbo: Montefiascone",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194950",
+      "name": "Province of Viterbo: Viterbo",
+      "city": "Province of Viterbo: Viterbo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187791",
+      "name": "Rome",
+      "city": "Rome",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "227101",
+      "name": "Saint Julian's",
+      "city": "Saint Julian's",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194900",
+      "name": "Sanremo",
+      "city": "Sanremo",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1590508",
+      "name": "Sant Ferran de ses Roques",
+      "city": "Sant Ferran de ses Roques",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1188767",
+      "name": "Sant Francesc de Formentera",
+      "city": "Sant Francesc de Formentera",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1010272",
+      "name": "Saxony: Annaberg-Buchholz",
+      "city": "Saxony: Annaberg-Buchholz",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187398",
+      "name": "Saxony: Chemnitz",
+      "city": "Saxony: Chemnitz",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187399",
+      "name": "Saxony: Dresden",
+      "city": "Saxony: Dresden",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1969016",
+      "name": "Saxony: Glauchau",
+      "city": "Saxony: Glauchau",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "1051857",
+      "name": "Saxony: Hartenstein",
+      "city": "Saxony: Hartenstein",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187400",
+      "name": "Saxony: Leipzig",
+      "city": "Saxony: Leipzig",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "642134",
+      "name": "Saxony: Seiffen",
+      "city": "Saxony: Seiffen",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187402",
+      "name": "Saxony: Zwickau",
+      "city": "Saxony: Zwickau",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "982875",
+      "name": "Schleswig-Holstein: Wacken",
+      "city": "Schleswig-Holstein: Wacken",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "188073",
+      "name": "Schwyz",
+      "city": "Schwyz",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189164",
+      "name": "Sintra",
+      "city": "Sintra",
+      "pinType": "been",
+      "contribCount": 1,
+      "memberPage": "https://www.tripadvisor.co.uk/members-citypage/mommi84/g189164"
+    },
+    {
+      "geoId": "189501",
+      "name": "Skopelos",
+      "city": "Skopelos",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "189500",
+      "name": "Skyros",
+      "city": "Skyros",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "188091",
+      "name": "St. Moritz",
+      "city": "St. Moritz",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "312717",
+      "name": "Tomar",
+      "city": "Tomar",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "190328",
+      "name": "Valletta",
+      "city": "Valletta",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194941",
+      "name": "Varazze",
+      "city": "Varazze",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "187793",
+      "name": "Vatican City",
+      "city": "Vatican City",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "194944",
+      "name": "Verbania",
+      "city": "Verbania",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "geoId": "294454",
+      "name": "Zagreb",
+      "city": "Zagreb",
+      "pinType": "been",
+      "contribCount": 0
+    },
+    {
+      "name": "Bethlehem, United States",
+      "city": "Bethlehem",
+      "country": "United States",
+      "region": "PA",
+      "continent": "North America",
+      "pinType": "been"
+    },
+    {
+      "name": "New York City, United States",
+      "city": "New York City",
+      "country": "United States",
+      "region": "NY",
+      "continent": "North America",
+      "pinType": "been"
+    },
+    {
+      "name": "Buenos Aires, Argentina",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "continent": "South America",
+      "pinType": "been"
+    }
+  ]
+}
