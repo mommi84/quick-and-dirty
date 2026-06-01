@@ -29,8 +29,8 @@ for f in geo["features"]:
         for x,y in r:
             minx=min(minx,x);maxx=max(maxx,x);miny=min(miny,y);maxy=max(maxy,y)
 
-W,H=1600,1100
-PAD=40; TOP=90
+W,H=2200,1520
+PAD=40; TOP=100
 gw,gh=W-2*PAD, H-TOP-PAD
 sx=gw/(maxx-minx); sy=gh/(maxy-miny); s=min(sx,sy)
 ox=PAD+(gw-s*(maxx-minx))/2
@@ -62,39 +62,77 @@ for f in geo["features"]:
         d.polygon(ext, fill=col+(230,), outline=(255,255,255,255))
 
 # title
-d.text((PAD,22), "London — cafés per 10,000 residents", font=font(34,True), fill=(44,28,16))
-d.text((PAD,62), "Real data · OSM cafés ÷ ONS Census 2021 population · 75 Westminster constituencies (July 2024)",
-        font=font(17), fill=(110,90,60))
+d.text((PAD,24), "London — cafés per 10,000 residents", font=font(40,True), fill=(44,28,16))
+d.text((PAD,72), "Real data · OSM cafés ÷ ONS Census 2021 population · 75 Westminster constituencies (July 2024)",
+        font=font(19), fill=(110,90,60))
 
 # legend
-lx,ly=W-300,TOP+20
-d.rectangle([lx-14,ly-14,lx+250,ly+ (len(RAMP))*26+10], fill=(255,255,255,235), outline=(200,200,200,255))
-d.text((lx,ly-10), "Cafés per 10,000", font=font(16,True), fill=(44,28,16))
-labels=["≤ 3.0","≤ 4.0","≤ 5.5","≤ 8.0","≤ 11.0","the danger zone"]
-for i,((u,c),lab) in enumerate(zip(RAMP,labels)):
-    yy=ly+18+i*26
-    d.rectangle([lx,yy,lx+20,yy+20], fill=hx(c), outline=(120,120,120))
-    d.text((lx+30,yy+2), lab, font=font(15), fill=(50,40,30))
+lx,ly=W-320,TOP+20
+d.rectangle([lx-14,ly-14,lx+260,ly+ (len(RAMP))*28+10], fill=(255,255,255,235), outline=(200,200,200,255))
+d.text((lx,ly-10), "Cafés per 10,000", font=font(18,True), fill=(44,28,16))
+leg=["≤ 3.0","≤ 4.0","≤ 5.5","≤ 8.0","≤ 11.0","the danger zone"]
+for i,((u,c),lab) in enumerate(zip(RAMP,leg)):
+    yy=ly+18+i*28
+    d.rectangle([lx,yy,lx+22,yy+22], fill=hx(c), outline=(120,120,120))
+    d.text((lx+32,yy+3), lab, font=font(16), fill=(50,40,30))
 
-# annotate top 3 + bottom
-ann=sorted(rows.items(), key=lambda kv: kv[1][1]/kv[1][2], reverse=True)
-def centroid(g):
-    best=None;ba=-1
+# centroid + polygon area (for ordering: big areas claim their spot first)
+def centroid_area(g):
+    best=None;ba=-1;tot=0.0
     for r in rings(g):
         a=cx=cy=0;n=len(r)
         for i in range(n):
             x0,y0=r[i];x1,y1=r[(i+1)%n];cr=x0*y1-x1*y0;a+=cr;cx+=(x0+x1)*cr;cy+=(y0+y1)*cr
         if abs(a)<1e-12: continue
-        a*=.5
+        a*=.5; tot+=abs(a)
         if abs(a)>ba: ba=abs(a);best=(cx/(6*a),cy/(6*a))
-    return best
+    return best,tot
 geomap={f["properties"]["code"]:f["geometry"] for f in geo["features"]}
-for code,(name,cafes,pop) in [ann[0],ann[-1]]:
-    cen=centroid(geomap[code]); px,py=proj(*cen)
-    dens=cafes/pop*10000
-    txt=f"{name}\n{dens:.1f}/10k"
-    d.text((px,py), txt, font=font(13,True), fill=(20,20,20), anchor="mm", align="center",
-           stroke_width=3, stroke_fill=(255,255,255,230))
+
+# wrap long names so labels stay narrow in the crowded centre
+def wrap(name):
+    name=name.replace(",", "")
+    words=name.split()
+    if len(words)<=2: return [name]
+    mid=(len(words)+1)//2
+    return [" ".join(words[:mid])," ".join(words[mid:])]
+
+fnt=font(15,True)
+items=[]
+for code,(name,cafes,pop) in rows.items():
+    cen,area=centroid_area(geomap[code])
+    px,py=proj(*cen)
+    lines=wrap(name)
+    w=max(d.textbbox((0,0),l,font=fnt)[2] for l in lines)
+    h=len(lines)*18
+    items.append({"px":px,"py":py,"w":w,"h":h,"lines":lines,"area":area})
+
+# greedy declutter: largest constituencies place first; others nudge to avoid overlap
+items.sort(key=lambda it:-it["area"])
+def overlap(a,b):
+    return not (a[2]<b[0] or b[2]<a[0] or a[3]<b[1] or b[3]<a[1])
+placed=[]
+# candidate offsets, spiralling outward
+offsets=[(0,0)]
+for r in range(1,9):
+    step=14*r
+    offsets+= [(0,-step),(0,step),(-step,0),(step,0),(-step,-step),(step,-step),(-step,step),(step,step)]
+for it in items:
+    chosen=None
+    for dx,dy in offsets:
+        cx,cy=it["px"]+dx,it["py"]+dy
+        box=(cx-it["w"]/2-2, cy-it["h"]/2-1, cx+it["w"]/2+2, cy+it["h"]/2+1)
+        if not any(overlap(box,p) for p in placed):
+            chosen=(cx,cy,box);break
+    if chosen is None:
+        cx,cy=it["px"],it["py"]
+        chosen=(cx,cy,(cx-it["w"]/2-2,cy-it["h"]/2-1,cx+it["w"]/2+2,cy+it["h"]/2+1))
+    cx,cy,box=chosen
+    placed.append(box)
+    ly0=cy-it["h"]/2
+    for i,line in enumerate(it["lines"]):
+        d.text((cx,ly0+i*18+9), line, font=fnt, fill=(15,15,15), anchor="mm",
+               stroke_width=3, stroke_fill=(255,255,255,235))
 
 img.save("london_cafe_density.png")
-print("saved", img.size)
+print("saved", img.size, "labels", len(items))
