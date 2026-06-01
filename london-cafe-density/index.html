@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>☕ London by Cafés per 100 People</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  html, body { margin: 0; height: 100%; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+  #map { height: 100%; width: 100%; background: #cfe3df; }
+  .banner {
+    position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+    z-index: 1000; background: rgba(58,36,18,0.92); color: #f6e7d3;
+    padding: 10px 18px; border-radius: 12px; text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3); max-width: 90%;
+  }
+  .banner h1 { margin: 0; font-size: 17px; }
+  .banner p { margin: 4px 0 0; font-size: 12px; opacity: 0.85; }
+  .legend {
+    line-height: 20px; color: #3a2412; background: rgba(255,255,255,0.9);
+    padding: 8px 10px; border-radius: 8px; font-size: 12px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.25);
+  }
+  .legend i { width: 16px; height: 16px; float: left; margin-right: 8px; opacity: 0.9; border-radius: 3px; }
+  .legend b { display:block; margin-bottom: 4px; }
+  .leaflet-popup-content { font-size: 13px; }
+  .leaflet-popup-content .q { font-style: italic; color: #6b4a2a; }
+  .leaflet-popup-content .rank { font-weight: bold; color: #7a4a1e; }
+</style>
+</head>
+<body>
+<div class="banner">
+  <h1>☕ London, ranked by cafés per 100 people</h1>
+  <p>A rigorously unscientific Caffeine Density Index. Bigger, browner blobs = more dangerously caffeinated.</p>
+</div>
+<div id="map"></div>
+<script>
+  const DATA = [{"name": "Cities of London and Westminster", "lat": 51.513, "lon": -0.135, "cafes": 540, "pop": 103000, "density": 0.524, "colour": "#3a2412", "quip": "Tourists, bankers, and \u00a36 cappuccinos.", "rank": 1}, {"name": "Hackney South and Shoreditch", "lat": 51.535, "lon": -0.058, "cafes": 612, "pop": 121000, "density": 0.506, "colour": "#3a2412", "quip": "Oat milk is the official tap water.", "rank": 2}, {"name": "Hackney North and Stoke Newington", "lat": 51.563, "lon": -0.075, "cafes": 521, "pop": 119000, "density": 0.438, "colour": "#3a2412", "quip": "Buggies wider than the pavements they patrol.", "rank": 3}, {"name": "Bethnal Green and Stepney", "lat": 51.525, "lon": -0.045, "cafes": 498, "pop": 124000, "density": 0.402, "colour": "#7a4a1e", "quip": "Every railway arch is legally required to roast beans.", "rank": 4}, {"name": "Islington South and Finsbury", "lat": 51.535, "lon": -0.105, "cafes": 447, "pop": 112000, "density": 0.399, "colour": "#7a4a1e", "quip": "Flat whites priced per syllable.", "rank": 5}, {"name": "Holborn and St Pancras", "lat": 51.53, "lon": -0.125, "cafes": 506, "pop": 141000, "density": 0.359, "colour": "#7a4a1e", "quip": "Commuters inhale espresso between two stations.", "rank": 6}, {"name": "Clapham and Brixton Hill", "lat": 51.455, "lon": -0.13, "cafes": 401, "pop": 118000, "density": 0.34, "colour": "#a86a32", "quip": "Cortado-to-resident ratio nearing dangerous levels.", "rank": 7}, {"name": "Islington North", "lat": 51.555, "lon": -0.115, "cafes": 389, "pop": 116000, "density": 0.335, "colour": "#a86a32", "quip": "Allotment energy, single-origin attitude.", "rank": 8}, {"name": "Kensington and Bayswater", "lat": 51.51, "lon": -0.19, "cafes": 358, "pop": 109000, "density": 0.328, "colour": "#a86a32", "quip": "Caf\u00e9s with valet parking for prams.", "rank": 9}, {"name": "Chelsea and Fulham", "lat": 51.485, "lon": -0.19, "cafes": 331, "pop": 107000, "density": 0.309, "colour": "#a86a32", "quip": "The almond croissant is a personality.", "rank": 10}, {"name": "Bermondsey and Old Southwark", "lat": 51.495, "lon": -0.065, "cafes": 398, "pop": 131000, "density": 0.304, "colour": "#a86a32", "quip": "Borough Market spillover, now with more sourdough.", "rank": 11}, {"name": "Hampstead and Highgate", "lat": 51.56, "lon": -0.165, "cafes": 342, "pop": 114000, "density": 0.3, "colour": "#a86a32", "quip": "Poets, plutocrats, and a long flat white.", "rank": 12}, {"name": "Vauxhall and Camberwell Green", "lat": 51.48, "lon": -0.105, "cafes": 372, "pop": 127000, "density": 0.293, "colour": "#a86a32", "quip": "Brunch is a competitive sport here.", "rank": 13}, {"name": "Dulwich and West Norwood", "lat": 51.44, "lon": -0.085, "cafes": 289, "pop": 123000, "density": 0.235, "colour": "#d29b5b", "quip": "Sourdough belt, southern frontier.", "rank": 14}, {"name": "Walthamstow", "lat": 51.585, "lon": -0.02, "cafes": 268, "pop": 115000, "density": 0.233, "colour": "#d29b5b", "quip": "Village vibes, aggressive flat whites.", "rank": 15}, {"name": "Tooting", "lat": 51.43, "lon": -0.165, "cafes": 276, "pop": 121000, "density": 0.228, "colour": "#d29b5b", "quip": "Latte art versus the legendary curry mile.", "rank": 16}, {"name": "Hornsey and Friern Barnet", "lat": 51.585, "lon": -0.12, "cafes": 279, "pop": 127000, "density": 0.22, "colour": "#e8c79b", "quip": "Crouch End: where careers go to drink coffee.", "rank": 17}, {"name": "Lewisham North", "lat": 51.46, "lon": -0.02, "cafes": 256, "pop": 124000, "density": 0.206, "colour": "#e8c79b", "quip": "Up-and-coming, says every estate agent.", "rank": 18}, {"name": "Ealing Central and Acton", "lat": 51.51, "lon": -0.28, "cafes": 247, "pop": 126000, "density": 0.196, "colour": "#e8c79b", "quip": "Studios, suburbs, and surprisingly good beans.", "rank": 19}, {"name": "Finchley and Golders Green", "lat": 51.595, "lon": -0.19, "cafes": 233, "pop": 121000, "density": 0.193, "colour": "#e8c79b", "quip": "Bagels and beans in equal measure.", "rank": 20}, {"name": "Greenwich and Woolwich", "lat": 51.485, "lon": 0.02, "cafes": 238, "pop": 129000, "density": 0.184, "colour": "#e8c79b", "quip": "Maritime history, decent macchiato.", "rank": 21}, {"name": "Streatham and Croydon North", "lat": 51.43, "lon": -0.12, "cafes": 231, "pop": 128000, "density": 0.18, "colour": "#e8c79b", "quip": "Caffeine gentrification, incoming.", "rank": 22}, {"name": "Leyton and Wanstead", "lat": 51.575, "lon": 0.01, "cafes": 214, "pop": 122000, "density": 0.175, "colour": "#f6e7d3", "quip": "E-postcode, espresso-adjacent.", "rank": 23}, {"name": "Brentford and Isleworth", "lat": 51.48, "lon": -0.33, "cafes": 221, "pop": 133000, "density": 0.166, "colour": "#f6e7d3", "quip": "Riverside flats demand riverside roasters.", "rank": 24}, {"name": "Barking", "lat": 51.54, "lon": 0.08, "cafes": 142, "pop": 135000, "density": 0.105, "colour": "#f6e7d3", "quip": "Honest builder's tea outnumbers the cortados.", "rank": 25}];
+  const TOTAL = 25;
+
+  const map = L.map('map', { scrollWheelZoom: true }).setView([51.505, -0.10], 11);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CARTO · cafés per 100 people are imaginary, the opinions are real',
+    subdomains: 'abcd', maxZoom: 19
+  }).addTo(map);
+
+  // Radius scales with the density so the espresso capitals genuinely loom.
+  const dmin = Math.min(...DATA.map(d => d.density));
+  const dmax = Math.max(...DATA.map(d => d.density));
+  const radius = d => 12 + 26 * (d - dmin) / (dmax - dmin || 1);
+
+  DATA.forEach(d => {
+    const m = L.circleMarker([d.lat, d.lon], {
+      radius: radius(d.density),
+      fillColor: d.colour, color: '#2c1c10', weight: 1, opacity: 1, fillOpacity: 0.82
+    }).addTo(map);
+    m.bindPopup(
+      `<span class="rank">#${d.rank} of ${TOTAL}</span><br>` +
+      `<b>${d.name}</b><br>` +
+      `<b>${d.density.toFixed(2)}</b> cafés per 100 people<br>` +
+      `${d.cafes.toLocaleString()} cafés · ${d.pop.toLocaleString()} residents<br>` +
+      `<span class="q">“${d.quip}”</span>`
+    );
+    m.bindTooltip(`${d.name} — ${d.density.toFixed(2)}/100`, { direction: 'top' });
+  });
+
+  const legend = L.control({ position: 'bottomright' });
+  legend.onAdd = function () {
+    const div = L.DomUtil.create('div', 'legend');
+    div.innerHTML = '<b>Cafés per 100 people</b><i style="background:#f6e7d3"></i> &le; 0.18<br><i style="background:#e8c79b"></i> &le; 0.22<br><i style="background:#d29b5b"></i> &le; 0.28<br><i style="background:#a86a32"></i> &le; 0.34<br><i style="background:#7a4a1e"></i> &le; 0.42<br><i style="background:#3a2412"></i> the danger zone<br>';
+    return div;
+  };
+  legend.addTo(map);
+</script>
+</body>
+</html>
