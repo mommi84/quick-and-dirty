@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Generate a 3D-printable trophy: stepped base, front plaque with text, cup with handles.
 
-Units are mm. Max width is 70 mm (the base). Prints upright, no supports.
-Usage: python award.py --text "WORLD'S OKAYEST" --out award.stl
+Units are mm. Max width is 70 mm (the base). Three parts, all printed without supports:
+base (black), cup, and the plaque (black plate, white text and border) which glues into
+a pocket on the front of the base.
+Usage: python award.py --text "WORLD'S\\nOKAYEST" --out .
 """
 import argparse
+import os
 
 import numpy as np
 import shapely.geometry as sg
@@ -16,8 +19,11 @@ from matplotlib.textpath import TextPath
 W, D = 70.0, 45.0           # base footprint (W is the max width)
 BASE_H = 22.0               # main block height
 TIER = (56.0, 34.0, 6.0)    # top tier w, d, h
-PLAQUE = (58.0, 15.0, 1.2)  # plaque w, h, thickness (sits on the base front)
-TEXT_RELIEF = 0.8
+PLAQUE = (58.0, 15.0, 1.6)  # plaque w, h, plate thickness (glued into a pocket on the base)
+TEXT_RELIEF = 0.6           # white text/border height above the black plate
+PEG_R, PEG_H = 4.0, 4.0     # peg on the base that locates the cup
+POCKET = 1.0                # depth of the plaque pocket in the base
+FIT = 0.2                   # clearance per side for parts that slot together
 
 
 def box(w, d, h, x=0, y=0, z=0):
@@ -79,54 +85,78 @@ def handle(side, z0):
     return m
 
 
+def plaque_parts(text):
+    """The label, lying flat with the text facing up: a black plate and white border + text."""
+    pw, ph, pt = PLAQUE
+    plate = box(pw, ph, pt)
+    border = trimesh.boolean.difference([
+        box(pw, ph, TEXT_RELIEF, z=pt),
+        box(pw - 2.4, ph - 2.4, TEXT_RELIEF + 1, z=pt - 0.5),
+    ])
+    txt, (minx, _, maxx, _) = text_mesh(text, ph - 6.0, TEXT_RELIEF)
+    if maxx - minx > pw - 6:  # shrink long text to fit
+        txt.apply_scale((pw - 6) / (maxx - minx))
+        txt.apply_translation((0, 0, -txt.bounds[0][2]))
+    txt.apply_translation((0, 0, pt))
+    return plate, trimesh.boolean.union([border, txt])
+
+
 def build(text):
-    # base: chamfer-ish stepped block + top tier
+    """Returns the printable parts, each in its print orientation, plus the plaque's placement."""
+    top = BASE_H + TIER[2]
+    pw, ph, pt = PLAQUE
+    front = -(D - 2) / 2
+    pz = 2.0 + (BASE_H - 2 - ph) / 2
+
+    # base: stepped block, a pocket at the front for the plaque, a peg on top for the cup
     base = trimesh.boolean.union([
         box(W, D, 2.0),
         box(W - 2, D - 2, BASE_H - 2, z=2.0),
         box(*TIER, z=BASE_H),
+        trimesh.creation.cylinder(radius=PEG_R, height=PEG_H, sections=64).apply_translation(
+            (0, 0, top + PEG_H / 2)),
     ])
-    top = BASE_H + TIER[2]
+    pocket = box(pw + 2 * FIT, 2 * POCKET, ph + 2 * FIT, y=front, z=pz - FIT)
+    base = trimesh.boolean.difference([base, pocket])
 
-    # plaque on the front face (-Y), with raised border and raised text
-    pw, ph, pt = PLAQUE
-    front = -(D - 2) / 2
-    pz = 2.0 + (BASE_H - 2 - ph) / 2
-    plaque = box(pw, pt, ph, y=front - pt / 2, z=pz)
-    border_outer = box(pw, pt + 0.6, ph, y=front - (pt + 0.6) / 2, z=pz)
-    border_inner = box(pw - 2.4, 2.0, ph - 2.4, y=front - pt - 1.0, z=pz + 1.2)
-    border = trimesh.boolean.difference([border_outer, border_inner])
-    txt, (minx, _, maxx, _) = text_mesh(text, ph - 6.0, TEXT_RELIEF)
-    if maxx - minx > pw - 6:  # shrink long text to fit
-        f = (pw - 6) / (maxx - minx)
-        txt.apply_scale(f)
-    # text extrudes +Z in its own frame: rotate so it sticks out of the plaque towards -Y
-    txt.apply_transform(trimesh.transformations.rotation_matrix(np.pi / 2, (1, 0, 0)))
-    txt.apply_translation((0, front - pt, pz + ph / 2))
-
-    # cup: foot, stem with knob, flared bowl
+    # cup: foot, stem with knob, flared bowl; a socket underneath takes the peg
     cup = revolve([
-        (0, top), (15, top), (15, top + 3), (11, top + 5), (5, top + 9),
-        (4.5, top + 18), (8, top + 21), (8, top + 24), (4.5, top + 27),
-        (4.5, top + 32), (6, top + 33),
-        (21, top + 48), (22, top + 66), (23.5, top + 70), (0, top + 70),
+        (0, 0), (15, 0), (15, 3), (11, 5), (5, 9),
+        (4.5, 18), (8, 21), (8, 24), (4.5, 27),
+        (4.5, 32), (6, 33),
+        (21, 48), (22, 66), (23.5, 70), (0, 70),
     ])
-    hollow = revolve([(0, top + 52), (19, top + 56), (20, top + 72), (0, top + 72)])
-    handles = [handle(s, top + 44) for s in (1, -1)]
-    cup = trimesh.boolean.difference([trimesh.boolean.union([cup, *handles]), hollow])
+    hollow = revolve([(0, 52), (19, 56), (20, 72), (0, 72)])
+    socket = trimesh.creation.cylinder(radius=PEG_R + FIT, height=2 * (PEG_H + FIT), sections=64)
+    handles = [handle(s, 44) for s in (1, -1)]
+    cup = trimesh.boolean.difference([trimesh.boolean.union([cup, *handles]), hollow, socket])
 
-    award = trimesh.boolean.union([base, plaque, border, txt, cup])
-    award.apply_translation((0, 0, -award.bounds[0][2]))
-    return award
+    plate, label = plaque_parts(text)
+    # flat plaque -> upright on the front of the base, text facing -Y, back in the pocket
+    place = trimesh.transformations.rotation_matrix(np.pi / 2, (1, 0, 0))
+    place[:3, 3] = (0, front + POCKET, pz + ph / 2)
+    return {"base": base, "cup": cup, "plaque_black": plate, "plaque_white": label}, \
+        {"cup": trimesh.transformations.translation_matrix((0, 0, top)),
+         "plaque_black": place, "plaque_white": place}
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--text", default="WORLD'S\\nOKAYEST", help="plaque text, \\n for a new line")
-    ap.add_argument("--out", default="award.stl")
+    ap.add_argument("--out", default=".", help="output directory")
+    ap.add_argument("--assembled", action="store_true", help="also write the assembled award (for previews)")
     a = ap.parse_args()
-    m = build(a.text)
-    m.export(a.out)
-    ext = m.extents
-    print(f"{a.out}: {ext[0]:.1f} x {ext[1]:.1f} x {ext[2]:.1f} mm, watertight={m.is_watertight}, "
-          f"volume={m.volume / 1000:.1f} cm3")
+    parts, placements = build(a.text)
+    # single-extruder version of the label: print it, swap to white at the layer above the plate
+    parts["plaque"] = trimesh.boolean.union([parts["plaque_black"], parts["plaque_white"]])
+    for name, m in parts.items():
+        path = os.path.join(a.out, f"award_{name}.stl")
+        m.export(path)
+        e = m.extents
+        print(f"{path}: {e[0]:.1f} x {e[1]:.1f} x {e[2]:.1f} mm, watertight={m.is_watertight}")
+    if a.assembled:
+        for name, tf in placements.items():
+            parts[name].apply_transform(tf)
+        for name in ("base", "cup", "plaque_black", "plaque_white"):
+            parts[name].export(os.path.join(a.out, f"assembled_{name}.stl"))
+    print(f"plaque colour change: white from z = {PLAQUE[2]:.1f} mm")
