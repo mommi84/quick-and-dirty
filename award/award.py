@@ -151,8 +151,8 @@ if __name__ == "__main__":
     parts, placements = build(a.text)
     # single-extruder version of the label: print it, swap to white at the layer above the plate
     parts["plaque"] = trimesh.boolean.union([parts["plaque_black"], parts["plaque_white"]])
-    # blank plaque (plate + border) for adding text in the slicer
-    parts["plaque_blank"] = trimesh.boolean.union(plaque_parts(""))
+    # just the white frame (no text), to pair with plaque_black and add text in the slicer
+    parts["plaque_frame"] = plaque_parts("")[1]
     for name, m in parts.items():
         path = os.path.join(a.out, f"award_{name}.stl")
         m.export(path)
