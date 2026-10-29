@@ -25,3 +25,18 @@ Long text is shrunk to fit the plaque. Print the plaque at 0.12 to 0.16 mm layer
 1. Import `award_plaque_black.stl` and `award_plaque_frame.stl` together. When it asks whether to load them as a single object with multiple parts, say **yes**. That keeps the frame on top of the plate.
 2. Give the frame part white filament and the plate black.
 3. Right-click the object, choose **Add part → Text**, and click the top of the plate to place the text. Set the depth to **0.6 mm** so it's level with the frame, and give it white filament.
+
+## Treble clef version
+
+`clef.py` makes a topper that replaces the cup and fits the same base and plaque.
+
+| File | Notes |
+|---|---|
+| `award_clef.stl` | Prints flat, so no supports. It's 6 mm thick, and its edges are thickened by 0.7 mm so the thin strokes don't snap. |
+| `award_clef_stand.stl` | Prints upright. It has the same foot as the cup and the same socket for the peg, plus a slot on top for the clef's tab. |
+
+Glue the clef's tab into the stand's slot, then glue the stand onto the base's peg. The glyph comes from FreeSerif (`apt install fonts-freefont-ttf`); to use another font with U+1D11E, pass `--font`.
+
+```
+python clef.py --out .
+```
