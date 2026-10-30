@@ -24,6 +24,7 @@ TEXT_RELIEF = 0.6           # white text/border height above the black plate
 PEG_R, PEG_H = 4.0, 4.0     # peg on the base that locates the cup
 POCKET = 1.0                # depth of the plaque pocket in the base
 FIT = 0.2                   # clearance per side for parts that slot together
+CUP_H = 70.0                # cup height above the base (the clef matches it)
 
 
 def box(w, d, h, x=0, y=0, z=0):
@@ -126,7 +127,7 @@ def build(text):
         (0, 0), (15, 0), (15, 3), (11, 5), (5, 9),
         (4.5, 18), (8, 21), (8, 24), (4.5, 27),
         (4.5, 32), (6, 33),
-        (21, 48), (22, 66), (23.5, 70), (0, 70),
+        (21, 48), (22, 66), (23.5, CUP_H), (0, CUP_H),
     ])
     hollow = revolve([(0, 52), (19, 56), (20, 72), (0, 72)])
     socket = trimesh.creation.cylinder(radius=PEG_R + FIT, height=2 * (PEG_H + FIT), sections=64)

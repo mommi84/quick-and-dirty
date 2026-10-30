@@ -17,16 +17,16 @@ from matplotlib.font_manager import FontProperties
 from matplotlib.path import Path
 from matplotlib.textpath import TextPath
 
-from award import FIT, PEG_H, PEG_R, box, revolve
+from award import CUP_H, FIT, PEG_H, PEG_R, box, revolve
 
 FONTS = ["/usr/share/fonts/truetype/freefont/FreeSerif.ttf",
          "/usr/share/fonts/opentype/freefont/FreeSerif.otf",
          "/Library/Fonts/FreeSerif.ttf"]
-CLEF_H = 62.0               # glyph height
+STAND_H = 12.0              # stand height
 THICK = 6.0                 # clef thickness (its height as printed)
 STROKE = 0.7                # mm added to every edge, so the thin strokes survive
+CLEF_H = CUP_H - STAND_H - STROKE  # glyph height, so the top lines up with the cup's rim
 TAB = (10.0, 6.0)           # tab under the clef: width, length (thickness is THICK)
-STAND_H = 12.0              # stand height
 
 
 def glyph(font, height):
