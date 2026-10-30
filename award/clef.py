@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """A treble-clef topper that swaps in for the cup on the common award base.
 
-Two parts, both printed without supports: the clef (printed flat) and a stand that sits
-on the base's peg. The clef's tab glues into a slot in the top of the stand.
+One part: the clef on the same foot as the cup, with the same socket underneath, so it
+drops onto the base's peg. Prints standing up; the clef's curls need a few tree supports.
 Usage: python clef.py --out .
 Needs a font with U+1D11E (FreeSerif: apt install fonts-freefont-ttf), or pass --font.
 """
@@ -22,11 +22,11 @@ from award import CUP_H, FIT, PEG_H, PEG_R, box, revolve
 FONTS = ["/usr/share/fonts/truetype/freefont/FreeSerif.ttf",
          "/usr/share/fonts/opentype/freefont/FreeSerif.otf",
          "/Library/Fonts/FreeSerif.ttf"]
-STAND_H = 12.0              # stand height
+STAND_H = 12.0              # foot height
 THICK = 6.0                 # clef thickness (its height as printed)
 STROKE = 0.7                # mm added to every edge, so the thin strokes survive
 CLEF_H = CUP_H - STAND_H - STROKE  # glyph height, so the top lines up with the cup's rim
-TAB = (10.0, 6.0)           # tab under the clef: width, length (thickness is THICK)
+TAB = (10.0, 6.0)           # hidden tab joining the clef to the foot: width, length
 
 
 def glyph(font, height):
@@ -63,24 +63,21 @@ def glyph(font, height):
 
 
 def build(font):
+    """One piece in print orientation (standing on its foot), which is also how it sits on the base."""
     g = glyph(font, CLEF_H)
     tw, tl = TAB
-    # tab hangs below the clef's lowest point, overlapping it so they fuse
+    # tab hangs below the clef's lowest point into the foot's neck, so the two fuse solidly
     tab = sg.box(-tw / 2, -tl, tw / 2, g.bounds[1] + STROKE + 3)
-    shape = shapely.ops.unary_union([g, tab])
-    clef = trimesh.creation.extrude_polygon(shape, THICK)
-    clef.apply_translation((0, 0, -clef.bounds[0][2]))
+    clef = trimesh.creation.extrude_polygon(shapely.ops.unary_union([g, tab]), THICK)
+    # flat -> upright in the XZ plane, centred on the foot
+    upright = trimesh.transformations.rotation_matrix(np.pi / 2, (1, 0, 0))
+    upright[:3, 3] = (0, THICK / 2, STAND_H)
+    clef.apply_transform(upright)
 
-    # stand: same foot as the cup, a short neck, slot on top, socket underneath for the peg
-    stand = revolve([(0, 0), (15, 0), (15, 3), (11, 5), (7, 9), (7, STAND_H), (0, STAND_H)])
-    slot = box(tw + 2 * FIT, THICK + 2 * FIT, tl + 1, z=STAND_H - tl)
+    # same foot and peg socket as the cup
+    foot = revolve([(0, 0), (15, 0), (15, 3), (11, 5), (7, 9), (7, STAND_H), (0, STAND_H)])
     socket = trimesh.creation.cylinder(radius=PEG_R + FIT, height=2 * (PEG_H + FIT), sections=64)
-    stand = trimesh.boolean.difference([stand, slot, socket])
-
-    # clef as assembled: flat -> upright in the XZ plane, tab down in the slot
-    place = trimesh.transformations.rotation_matrix(np.pi / 2, (1, 0, 0))
-    place[:3, 3] = (0, THICK / 2, STAND_H)
-    return {"clef": clef, "clef_stand": stand}, place
+    return trimesh.boolean.difference([trimesh.boolean.union([foot, clef]), socket])
 
 
 if __name__ == "__main__":
@@ -91,17 +88,12 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if not a.font:
         raise SystemExit("no font with a treble clef found; install FreeSerif or pass --font")
-    parts, place = build(a.font)
-    for name, m in parts.items():
-        path = os.path.join(a.out, f"award_{name}.stl")
-        m.export(path)
-        e = m.extents
-        print(f"{path}: {e[0]:.1f} x {e[1]:.1f} x {e[2]:.1f} mm, watertight={m.is_watertight}")
+    m = build(a.font)
+    path = os.path.join(a.out, "award_clef.stl")
+    m.export(path)
+    e = m.extents
+    print(f"{path}: {e[0]:.1f} x {e[1]:.1f} x {e[2]:.1f} mm, watertight={m.is_watertight}")
     if a.assembled:
         from award import BASE_H, TIER
-        top = BASE_H + TIER[2]
-        parts["clef"].apply_transform(place)
-        for m in parts.values():
-            m.apply_translation((0, 0, top))
-        for name, m in parts.items():
-            m.export(os.path.join(a.out, f"assembled_{name}.stl"))
+        m.apply_translation((0, 0, BASE_H + TIER[2]))
+        m.export(os.path.join(a.out, "assembled_clef.stl"))

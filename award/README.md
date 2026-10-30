@@ -28,14 +28,11 @@ Long text is shrunk to fit the plaque. Print the plaque at 0.12 to 0.16 mm layer
 
 ## Treble clef version
 
-`clef.py` makes a topper that replaces the cup and fits the same base and plaque.
+`clef.py` makes `award_clef.stl`, a one-piece topper that replaces the cup. The clef sits on the same foot as the cup, with the same hollow socket underneath, so it drops straight onto the base's peg. It is the same height as the cup.
 
-| File | Notes |
-|---|---|
-| `award_clef.stl` | Prints flat, so no supports. It's 6 mm thick, and its edges are thickened by 0.7 mm so the thin strokes don't snap. |
-| `award_clef_stand.stl` | Prints upright. It has the same foot as the cup and the same socket for the peg, plus a slot on top for the clef's tab. |
+Print it standing on its foot. The curls of the clef overhang, so turn on tree supports; they only touch a few small spots. The clef is 6 mm thick, and its edges are thickened by 0.7 mm so the thin strokes don't snap.
 
-Glue the clef's tab into the stand's slot, then glue the stand onto the base's peg. The glyph comes from FreeSerif (`apt install fonts-freefont-ttf`); to use another font with U+1D11E, pass `--font`.
+The glyph comes from FreeSerif (`apt install fonts-freefont-ttf`); to use another font with U+1D11E, pass `--font`.
 
 ```
 python clef.py --out .
