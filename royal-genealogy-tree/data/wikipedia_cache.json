@@ -1,0 +1,570 @@
+{
+ "Charles_III": {
+  "extract": "Charles III is King of the United Kingdom and 14 other Commonwealth realms.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/King_Charles_III_%28July_2023%29.jpg/330px-King_Charles_III_%28July_2023%29.jpg"
+ },
+ "Elizabeth_II": {
+  "extract": "Elizabeth II was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during her lifetime and was the monarch of 15 realms at her death. Her reign of 70 years and 214 days is the longest of any British monarch, the second-longest of any sovereign state, and the longest of any queen regnant in history.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg/330px-Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg"
+ },
+ "Prince_Philip,_Duke_of_Edinburgh": {
+  "extract": "Prince Philip, Duke of Edinburgh, was the husband of Queen Elizabeth II and served as consort of the British monarch from her accession on 6 February 1952 until his death in 2021, making him the longest-serving royal consort in British history.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Duke_of_Edinburgh_33_Allan_Warren.jpg/330px-Duke_of_Edinburgh_33_Allan_Warren.jpg"
+ },
+ "George_VI": {
+  "extract": "George VI was King of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 until his death in 1952. He was also the last Emperor of India from 1936 until the British Raj was dissolved in August 1947, and the first Head of the Commonwealth following the London Declaration of 1949.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/330px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg"
+ },
+ "Princess_Alice_of_Battenberg": {
+  "extract": "Princess Alice of Battenberg was the mother of Prince Philip, Duke of Edinburgh, mother-in-law of Queen Elizabeth II, and paternal grandmother of King Charles III. After marrying Prince Andrew of Greece and Denmark in 1903, she adopted the style of her husband, becoming Princess Andrew of Greece and Denmark.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Alice_de_Battenberg.jpg/330px-Alice_de_Battenberg.jpg"
+ },
+ "Queen_Elizabeth_the_Queen_Mother": {
+  "extract": "Elizabeth Angela Marguerite Bowes-Lyon was Queen of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 to 6 February 1952 as the wife of King George VI. She was also the last Empress of India from 1936 until the British Raj was dissolved on 15 August 1947. After her husband died, she was officially known as Queen Elizabeth the Queen Mother to avoid confusion with her daughter Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Queen_Elizabeth_the_Queen_Mother_portrait.jpg/330px-Queen_Elizabeth_the_Queen_Mother_portrait.jpg"
+ },
+ "Prince_Andrew_of_Greece_and_Denmark": {
+  "extract": "Prince Andrew of Greece and Denmark was the seventh child and fourth son of King George I and Queen Olga of Greece. He was a grandson of King Christian IX of Denmark and the father of Prince Philip, Duke of Edinburgh. He was a prince of Greece and Denmark, both by virtue of his patrilineal descent.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Prince_Andrew_of_Greece.JPG/330px-Prince_Andrew_of_Greece.JPG"
+ },
+ "Mary_of_Teck": {
+  "extract": "Mary of Teck was Queen of the United Kingdom and the British Dominions, and Empress of India, from 6 May 1910 until 20 January 1936 as the wife of King George V.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Queenmaryformalportrait_edit3.jpg/330px-Queenmaryformalportrait_edit3.jpg"
+ },
+ "Princess_Victoria_of_Hesse_and_by_Rhine": {
+  "extract": "Princess Victoria of Hesse and by Rhine, later Princess Louis of Battenberg and then Victoria Mountbatten, Marchioness of Milford Haven, was the eldest daughter of Louis IV, Grand Duke of Hesse and by Rhine, and Princess Alice of the United Kingdom.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Princess_Victoria_of_Hesse_and_by_Rhine.png/330px-Princess_Victoria_of_Hesse_and_by_Rhine.png"
+ },
+ "Olga_Constantinovna_of_Russia": {
+  "extract": "Olga Constantinovna of Russia was Queen of Greece as the wife of King George I. She was briefly the regent of Greece in 1920.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Olga_of_Greece_VI_restoration.jpg/330px-Olga_of_Greece_VI_restoration.jpg"
+ },
+ "Cecilia_Bowes-Lyon,_Countess_of_Strathmore_and_Kinghorne": {
+  "extract": "Cecilia Nina Bowes-Lyon, Countess of Strathmore and Kinghorne was the mother of Queen Elizabeth the Queen Mother, maternal grandmother and godmother of Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cecilia_Bowes-Lyon_from_wedding_portrait_of_Duke_and_Duchess_of_York_%28cropped%29.jpg/330px-Cecilia_Bowes-Lyon_from_wedding_portrait_of_Duke_and_Duchess_of_York_%28cropped%29.jpg"
+ },
+ "George_V": {
+  "extract": "George V was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/King_George_1923_LCCN2014715558_%28cropped%29.jpg/330px-King_George_1923_LCCN2014715558_%28cropped%29.jpg"
+ },
+ "Claude_Bowes-Lyon,_14th_Earl_of_Strathmore_and_Kinghorne": {
+  "extract": "Claude George Bowes-Lyon, 14th and 1st Earl of Strathmore and Kinghorne, styled as Lord Glamis from 1865 to 1904, was a British peer and landowner who was the father of Queen Elizabeth the Queen Mother and the maternal grandfather of Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Claude_Bowes-Lyon%2C_14th_Earl_of_Strathmore_and_Kinghorne.jpg/330px-Claude_Bowes-Lyon%2C_14th_Earl_of_Strathmore_and_Kinghorne.jpg"
+ },
+ "George_I_of_Greece": {
+  "extract": "George I was King of Greece from 30 March 1863 until his assassination on 18 March 1913.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/George_I_of_Greece%2C_c.1912.jpg/330px-George_I_of_Greece%2C_c.1912.jpg"
+ },
+ "Prince_Louis_of_Battenberg": {
+  "extract": "Louis Alexander Mountbatten, 1st Marquess of Milford Haven, formerly Prince Louis Alexander of Battenberg, was a British naval officer and German prince related by marriage to the British royal family.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/1_milford-haven-1909.png/330px-1_milford-haven-1909.png"
+ },
+ "Edward_VII": {
+  "extract": "Edward VII was King of the United Kingdom and the British Dominions, and Emperor of India, from 22 January 1901 until his death in 1910.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/King-Edward-VII_%28cropped%29_%28b%29.jpg/330px-King-Edward-VII_%28cropped%29_%28b%29.jpg"
+ },
+ "Charles_Cavendish-Bentinck": {
+  "extract": "Charles William Frederick Cavendish-Bentinck was a priest of the Church of England who held livings in Bedfordshire. He was also the maternal grandfather of Queen Elizabeth the Queen Mother and a great-grandfather of Queen Elizabeth II.",
+  "thumbnail": null
+ },
+ "Christian_IX": {
+  "extract": "Christian IX was King of Denmark from 15 November 1863 until his death in 1906. From 1863 to 1864, he was concurrently Duke of Schleswig, Holstein and Lauenburg. He became one of the most influential monarchs of 19th-century Europe through the dynastic marriages of his children, earning the sobriquet \"father-in-law of Europe\". Because many later European monarchs descended from him, he is also sometimes informally described as the \"grandfather of Europe\".",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Christian_IX_of_Denmark_color_altered.jpg/330px-Christian_IX_of_Denmark_color_altered.jpg"
+ },
+ "Princess_Alexandra_of_Saxe-Altenburg": {
+  "extract": "Grand Duchess Alexandra Iosifovna of Russia was the fifth daughter of Joseph, Duke of Saxe-Altenburg and Duchess Amelia of Württemberg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Princess_Alexandra_of_Saxe-Altenburg.jpg/330px-Princess_Alexandra_of_Saxe-Altenburg.jpg"
+ },
+ "Louis_IV,_Grand_Duke_of_Hesse": {
+  "extract": "Louis IV was the Grand Duke of Hesse and by Rhine from 13 June 1877 until his death in 1892. Through his marriage to Queen Victoria's second daughter Alice, he was connected to the British royal family. Two of his daughters married into the House of Romanov.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Grand_Duke_Ludwig_IV_of_He-1.jpg/330px-Grand_Duke_Ludwig_IV_of_He-1.jpg"
+ },
+ "Louise_of_Hesse-Kassel": {
+  "extract": "Louise of Hesse-Kassel was Queen of Denmark as the wife of King Christian IX, from 15 November 1863 until her death in 1898. From 1863 to 1864, she was concurrently Duchess of Schleswig, Holstein and Lauenburg. Born in Kassel, she was the daughter of Prince William of Hesse-Kassel and Princess Charlotte of Denmark, and a niece of King Christian VIII. Through her descent from King Frederick III, she supported her husband's claim to the Danish throne.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Louise_of_Hesse-Kassel.jpg/330px-Louise_of_Hesse-Kassel.jpg"
+ },
+ "Princess_Mary_Adelaide_of_Cambridge": {
+  "extract": "Princess Mary Adelaide of Cambridge, later known as the Duchess of Teck, was a member of the British royal family. She was one of the first royals to patronise a wide range of charities and was a first cousin of Queen Victoria.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Princess_Mary_Adelaide%2C_Duchess_of_Teck_%281833%E2%80%931897%29.png/330px-Princess_Mary_Adelaide%2C_Duchess_of_Teck_%281833%E2%80%931897%29.png"
+ },
+ "Julia,_Princess_of_Battenberg": {
+  "extract": "Julia, Princess of Battenberg, previously Countess Julia von Hauke and Countess of Battenberg, was the wife of Prince Alexander of Hesse and by Rhine, the third son of Louis II, Grand Duke of Hesse.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Julia_Hauke_by_Vladimir_Hau.jpg/330px-Julia_Hauke_by_Vladimir_Hau.jpg"
+ },
+ "Prince_Alexander_of_Hesse_and_by_Rhine": {
+  "extract": "Prince Alexander of Hesse and by Rhine, was the third son and fourth child of Louis II, Grand Duke of Hesse, and Wilhelmine of Baden. He was a brother of Tsarina Maria Alexandrovna, wife of Tsar Alexander II of Russia. The Battenberg-Mountbatten family descends from Alexander and his wife Countess Julia von Hauke, a former lady-in-waiting to his sister.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Prince_Alexander_Ludwig_Georg_Friedrich_Emil_of_Hesse.png/330px-Prince_Alexander_Ludwig_Georg_Friedrich_Emil_of_Hesse.png"
+ },
+ "Alexandra_of_Denmark": {
+  "extract": "Alexandra of Denmark was Queen of the United Kingdom and the British Dominions, and Empress of India, from 22 January 1901 to 6 May 1910 as the wife of King Edward VII.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Queen_Alexandra_Portrait_1913.jpg/330px-Queen_Alexandra_Portrait_1913.jpg"
+ },
+ "Princess_Alice_of_the_United_Kingdom": {
+  "extract": "Princess Alice was Grand Duchess of Hesse and by Rhine from 13 June 1877 until her death in 1878 as the wife of Grand Duke Louis IV. She was the third child and second daughter of Queen Victoria and Prince Albert of Saxe-Coburg and Gotha. Alice was the first of Queen Victoria's nine children to die and one of three to predecease their mother.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Alice%2C_Princess_Louis_of_Hesse.jpg/330px-Alice%2C_Princess_Louis_of_Hesse.jpg"
+ },
+ "Grand_Duke_Konstantin_Nikolayevich_of_Russia": {
+  "extract": "Grand Duke Konstantin Nikolayevich of Russia was the Emperor's Viceroy of Poland from 1862 to 1863 and a general admiral of the Imperial Russian Navy.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Romanov%2C_Constantin_Nicolaievitch%2C_Grand-Duc_de_Russie%2C_Gallica%2C_Nadar.jpg/330px-Romanov%2C_Constantin_Nicolaievitch%2C_Grand-Duc_de_Russie%2C_Gallica%2C_Nadar.jpg"
+ },
+ "Francis,_Duke_of_Teck": {
+  "extract": "Francis, Duke of Teck, known as Count Francis von Hohenstein until 1863, was an Austrian-born nobleman who married into the British royal family. His wife, Princess Mary Adelaide of Cambridge, was a first cousin of Queen Victoria. He was the father of Queen Mary, the consort of King George V, and thus maternal grandfather of both Edward VIII and George VI. Francis held the Austrian title of Count of Hohenstein, and the German titles of Prince (Fürst) and later Duke of Teck, and was given the style of Serene Highness in 1863. He was granted the British style of Highness in 1887.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Prince_Francis%2C_Duke_of_Teck.jpg/330px-Prince_Francis%2C_Duke_of_Teck.jpg"
+ },
+ "Claude_Bowes-Lyon,_13th_Earl_of_Strathmore_and_Kinghorne": {
+  "extract": "Claude Bowes-Lyon, 13th Earl of Strathmore and Kinghorne, styled The Honourable Claude Bowes-Lyon from 1847 to 1865, was a Scottish peer. He was the 13th holder of the Earldom of Strathmore and Kinghorne, the paternal grandfather of Queen Elizabeth the Queen Mother, and a great-grandfather of Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Claud_Bowes-Lyon%2C_13th_Earl_of_Strathmore_and_Kinghorne.jpg/330px-Claud_Bowes-Lyon%2C_13th_Earl_of_Strathmore_and_Kinghorne.jpg"
+ },
+ "Louisa_Cavendish-Bentinck": {
+  "extract": "Caroline Louisa Cavendish-Bentinck was the maternal grandmother of Queen Elizabeth the Queen Mother and a great-grandmother of Queen Elizabeth II.",
+  "thumbnail": null
+ },
+ "Frances_Bowes-Lyon,_Countess_of_Strathmore_and_Kinghorne": {
+  "extract": "Frances Dora Bowes-Lyon, Countess of Strathmore and Kinghorne was a British noblewoman. She was the paternal grandmother of Queen Elizabeth the Queen Mother, and thus a great-grandmother of Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/47/Frances_Bowes-Lyon.png"
+ },
+ "Queen_Victoria": {
+  "extract": "Victoria was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Her reign of 63 years and 216 days, which was longer than those of any of her predecessors, constituted the Victorian era, a period of industrial, political, scientific, and military change within the United Kingdom marked by a great expansion of the British Empire. In 1876, the British parliament voted to grant her the additional title of Empress of India.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/330px-Queen_Victoria_by_Bassano.jpg"
+ },
+ "Prince_Albert_of_Saxe-Coburg_and_Gotha": {
+  "extract": "Prince Albert of Saxe-Coburg and Gotha was the husband of Queen Victoria and consort of the British monarch from their marriage on 10 February 1840 until his death in 1861. Victoria granted him the title Prince Consort in 1857.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Prince_Albert_of_Saxe-Coburg-Gotha_%28cropped%29.png/330px-Prince_Albert_of_Saxe-Coburg-Gotha_%28cropped%29.png"
+ },
+ "Alexandra_Feodorovna_(Charlotte_of_Prussia)": {
+  "extract": "Alexandra Feodorovna, born Princess Charlotte of Prussia, was Empress of Russia as the wife of Emperor Nicholas I.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BD%D0%B0_-_%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D0%B8.jpg/330px-%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%BD%D0%B0_-_%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B0_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D0%B8.jpg"
+ },
+ "August_von_Senarclens_de_Grancy": {
+  "extract": "August Ludwig Freiherr von Senarclens de Grancy was the life partner of Wilhelmine of Baden, the Grand Duchess consort of Hesse, and the alleged father of Empress Maria Alexandrovna of Russia and Prince Alexander of Hesse and by Rhine.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Auguste_louis_senarclens_de_grancy.jpg/330px-Auguste_louis_senarclens_de_grancy.jpg"
+ },
+ "Lord_Charles_Bentinck": {
+  "extract": "Lord William Charles Augustus Cavendish-Bentinck, known as Lord Charles Bentinck, was a British soldier and politician.",
+  "thumbnail": null
+ },
+ "Nicholas_I_of_Russia": {
+  "extract": "Nicholas I was Emperor of Russia, King of Poland, and Grand Duke of Finland from 1825 to 1855. He was the third son of Paul I and younger brother of his predecessor, Alexander I. Nicholas's 29-year reign began with the failed Decembrist revolt. He is mainly remembered as a reactionary whose controversial reign was marked by geographical expansion, centralisation of administrative policies, and repression of dissent both in Russia and among its neighbors. Nicholas had a happy marriage that produced a large family, with all of their seven children surviving childhood.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botman_-_Emperor_Nicholas_I_%28cropped%29_%28b%29.jpg/330px-Botman_-_Emperor_Nicholas_I_%28cropped%29_%28b%29.jpg"
+ },
+ "Princess_Augusta_of_Hesse-Kassel": {
+  "extract": "Princess Augusta of Hesse-Kassel was the wife of Prince Adolphus, Duke of Cambridge, the tenth-born child and seventh son of George III of the United Kingdom and Charlotte of Mecklenburg-Strelitz. The longest-lived daughter-in-law of George III, she was the maternal grandmother of Mary of Teck, wife of George V.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Augusta%2C_Duchess_of_Cambridge_-_Beechey_1818.jpg/330px-Augusta%2C_Duchess_of_Cambridge_-_Beechey_1818.jpg"
+ },
+ "Princess_Wilhelmine_of_Baden": {
+  "extract": "Princess Wilhelmine of Baden, was by birth a Princess of Baden from the House of Zähringen and by marriage Grand Duchess consort of Hesse and by Rhine. Her descendants include King Charles III of the United Kingdom, King Felipe VI of Spain, and other members of European royalty.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Gulhermina_de_baden2.JPG/330px-Gulhermina_de_baden2.JPG"
+ },
+ "Prince_William_of_Hesse-Kassel": {
+  "extract": "Prince William of Hesse-Kassel was the first son of Prince Frederick of Hesse-Kassel and Princess Caroline of Nassau-Usingen. He was titular Landgrave of Hesse-Kassel-(Rumpenheim) and for many years heir presumptive to the throne of Hesse-Kassel.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Wilhelmvonhessenkassel.jpg/330px-Wilhelmvonhessenkassel.jpg"
+ },
+ "Duke_Alexander_of_Württemberg_(1804–1885)": {
+  "extract": "Duke Alexander Paul Ludwig Konstantin of Württemberg was a German nobleman. His son, Francis, Duke of Teck, was the father of Mary of Teck, queen consort to George V of the United Kingdom.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Duke_Alexander_of_W%C3%BCrttemberg_%281804-85%29_1861.jpg/330px-Duke_Alexander_of_W%C3%BCrttemberg_%281804-85%29_1861.jpg"
+ },
+ "Prince_Charles_of_Hesse_and_by_Rhine": {
+  "extract": "Prince Charles of Hesse and by Rhine was a German prince, officer and politician. He was the second surviving son of Louis II, Grand Duke of Hesse and Wilhelmine of Baden. The prince had a military career and became a general in the infantry of the army of the Grand Duchy of Hesse. He was also a member of the Landtag of Hesse.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Karl_von_Hessen-Darmstadt%2C_1809.jpg/330px-Karl_von_Hessen-Darmstadt%2C_1809.jpg"
+ },
+ "Anne_Caroline_Salisbury": {
+  "extract": "Anne Caroline Salisbury was the wife of Edwyn Burnaby, and mother of Edwyn Sherard Burnaby and Caroline Louisa Burnaby. She is the direct maternal great-grandmother of Queen Elizabeth The Queen Mother, great-great-grandmother of Queen Elizabeth II, and great-great-great-grandmother of King Charles III.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Anne_Caroline_Salisbury.jpg/330px-Anne_Caroline_Salisbury.jpg"
+ },
+ "Princess_Louise_Caroline_of_Hesse-Kassel": {
+  "extract": "Princess Louise Caroline of Hesse-Kassel was the consort of Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Glücksburg and the matriarch of the House of Glücksburg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/HertugindeLouise.jpg/330px-HertugindeLouise.jpg"
+ },
+ "Edwyn_Burnaby_(courtier)": {
+  "extract": "Captain Edwyn Burnaby JP DL of Baggrave Hall, Leicestershire, was an English landowner, courtier, He was a maternal great-grandfather of Queen Elizabeth The Queen Mother and therefore a direct ancestor of Queen Elizabeth II and King Charles III.",
+  "thumbnail": null
+ },
+ "Henrietta_Mildred_Hodgson": {
+  "extract": "Henrietta Mildred Hodgson was an English lady with both British royal and American presidential genealogical connections.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Portrait_of_Henrietta_Mildred_Smith%2C_n%C3%A9e_Hodgson_%281805-1860%29.jpg/330px-Portrait_of_Henrietta_Mildred_Smith%2C_n%C3%A9e_Hodgson_%281805-1860%29.jpg"
+ },
+ "Lady_Charles_Bentinck": {
+  "extract": "Lady Charles Cavendish-Bentinck, known between 1806 and 1816 as Lady Abdy, was a British aristocrat and a great-great-grandmother of Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Sir_Thomas_Lawrence_-_Portrait_of_Lady_Charles_Cavendish_Bentinck.jpg/330px-Sir_Thomas_Lawrence_-_Portrait_of_Lady_Charles_Cavendish_Bentinck.jpg"
+ },
+ "Joseph,_Duke_of_Saxe-Altenburg": {
+  "extract": "Joseph was Duke of Saxe-Altenburg from 1834 to 1848.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Herzog_Joseph_von_Sachsen-Altenburg.jpg/330px-Herzog_Joseph_von_Sachsen-Altenburg.jpg"
+ },
+ "Maurycy_Hauke": {
+  "extract": "Jan Maurycy Hauke was a Polish general and professional soldier of the Hauke family, which had Flemish and Saxon origins.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Maurycy_hauke.PNG/330px-Maurycy_hauke.PNG"
+ },
+ "Princess_Charlotte_of_Denmark": {
+  "extract": "Princess Louise Charlotte of Denmark was a Danish princess, and a princess of Hesse-Kassel by marriage to Prince William of Hesse-Kassel.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Louise_Charlotte_of_Denmark.jpg/330px-Louise_Charlotte_of_Denmark.jpg"
+ },
+ "Friedrich_Wilhelm,_Duke_of_Schleswig-Holstein-Sonderburg-Glücksburg": {
+  "extract": "Friedrich Wilhelm, Duke of Schleswig-Holstein-Sonderburg-Glücksburg was a German-Danish prince and officer who was the Duke of Schleswig-Holstein-Sonderburg-Beck from 1816 to 1825, and the Duke of Schleswig-Holstein-Sonderburg-Glücksburg from 1825 to 1831. Friedrich Wilhelm is the progenitor of the House of Glücksburg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Prins_Vilhelm_1785-1831.jpg/330px-Prins_Vilhelm_1785-1831.jpg"
+ },
+ "Countess_Claudine_Rhédey_de_Kis-Rhéde": {
+  "extract": "Countess Claudine Susanna Rhédey de Kis-Rhéde was the Hungarian wife of Duke Alexander of Württemberg. Her son, Francis, Duke of Teck, was the father of Mary of Teck, queen consort to George V of the United Kingdom. The current British monarch, Charles III, is Claudine's great-great-great-grandson.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Countess_Claudine_Rh%C3%A9dey_von_Kis-Rh%C3%A9de%2C_Countess_of_Hohenstein.jpg/330px-Countess_Claudine_Rh%C3%A9dey_von_Kis-Rh%C3%A9de%2C_Countess_of_Hohenstein.jpg"
+ },
+ "Princess_Elisabeth_of_Prussia": {
+  "extract": "Princess Elisabeth of Prussia was the second daughter of Prince Wilhelm of Prussia and Princess Maria Anna of Hesse-Homburg and a granddaughter of Frederick William II of Prussia. Through her eldest son Louis IV, Prince Philip, Duke of Edinburgh was her great-great-grandson, and she is consequently an ancestor of Charles III.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Princess_Elisabeth_of_Prussia.jpg/330px-Princess_Elisabeth_of_Prussia.jpg"
+ },
+ "Duchess_Amelia_of_Württemberg": {
+  "extract": "Duchess Amelia of Württemberg was Duchess of Saxe-Altenburg by marriage to Joseph, Duke of Saxe-Altenburg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/AMALIEDUCHESSOFSAXE-ALTENBURG_edite.jpg/330px-AMALIEDUCHESSOFSAXE-ALTENBURG_edite.jpg"
+ },
+ "Prince_Adolphus,_Duke_of_Cambridge": {
+  "extract": "Prince Adolphus, Duke of Cambridge was the tenth child and seventh son of King George III of the United Kingdom and Queen Charlotte. He held the title of Duke of Cambridge from 1801 until his death. From 1816 to 1837, he served as Viceroy of the Kingdom of Hanover on behalf of his elder brothers King George IV and King William IV.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prince_Adolphus_Frederick%2C_Duke_of_Cambridge%2C_KG_%281774-1850%29.jpg/330px-Prince_Adolphus_Frederick%2C_Duke_of_Cambridge%2C_KG_%281774-1850%29.jpg"
+ },
+ "Paul_I_of_Russia": {
+  "extract": "Paul I was Emperor of Russia from 1796 until his assassination in 1801.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Emperor_Paul_I_of_Russia.png/330px-Emperor_Paul_I_of_Russia.png"
+ },
+ "Frederick_William_III": {
+  "extract": "Frederick William III was King of Prussia from 16 November 1797 until his death in 1840. He was concurrently Elector of Brandenburg in the Holy Roman Empire until 6 August 1806, when the empire was dissolved.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Friedrich_Wilhelm_III.%2C_K%C3%B6nig_von_Preu%C3%9Fen_%28unbekannter_Maler%29.jpg/330px-Friedrich_Wilhelm_III.%2C_K%C3%B6nig_von_Preu%C3%9Fen_%28unbekannter_Maler%29.jpg"
+ },
+ "Maria_Feodorovna_(Sophie_Dorothea_of_Württemberg)": {
+  "extract": "Maria Feodorovna, born Duchess Sophie Dorothea of Württemberg, became Empress of Russia as the second wife of Emperor Paul I. She founded the Office of the Institutions of Empress Maria.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Maria_Fedorovna_by_Voille_%281790s%2C_Russian_museum%29.jpg/330px-Maria_Fedorovna_by_Voille_%281790s%2C_Russian_museum%29.jpg"
+ },
+ "Louise_of_Mecklenburg-Strelitz": {
+  "extract": "Louise of Mecklenburg-Strelitz was Queen of Prussia as the wife of King Frederick William III. The couple's happy, though short-lived, marriage produced nine children, including the future monarchs Frederick William IV of Prussia and William I, German Emperor.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Grassi%2C_Josef_Mathias_-_Luise_von_Mecklenburg-Strelitz.jpg/330px-Grassi%2C_Josef_Mathias_-_Luise_von_Mecklenburg-Strelitz.jpg"
+ },
+ "Princess_Victoria_of_Saxe-Coburg-Saalfeld": {
+  "extract": "Princess Victoria of Saxe-Coburg-Saalfeld, later Princess of Leiningen and subsequently Duchess of Kent and Strathearn, was a German princess and the mother of Queen Victoria of the United Kingdom. As the widow of Emich Karl, Prince of Leiningen, from 1814, she served as regent of the principality during the minority of her son from her first marriage, Karl, until her second wedding in 1818 to Prince Edward, fourth son of George III.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Dawe%2C_George_-_Buste_van_de_hertogin_van_Kent_-_170_-_Royal_Collection_of_Belgium.jpg/330px-Dawe%2C_George_-_Buste_van_de_hertogin_van_Kent_-_170_-_Royal_Collection_of_Belgium.jpg"
+ },
+ "Ernest_I,_Duke_of_Saxe-Coburg_and_Gotha": {
+  "extract": "Ernest I served as the last sovereign duke of Saxe-Coburg-Saalfeld from 1806 to 1826 and the first sovereign duke of Saxe-Coburg and Gotha from 1826 to 1844. He was the father of Prince Albert, who was the husband of Queen Victoria. Ernest fought against Napoleon Bonaparte, and through construction projects and the establishment of a court theatre, he left a strong imprint on his residence town, Coburg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ernst_I%2C_Duke_of_Saxe-Coburg_and_Gotha_-_Dawe_1818-19.jpg/330px-Ernst_I%2C_Duke_of_Saxe-Coburg_and_Gotha_-_Dawe_1818-19.jpg"
+ },
+ "Charles_Louis,_Hereditary_Prince_of_Baden": {
+  "extract": "Charles Louis, Hereditary Prince of Baden was heir apparent of the Margraviate of Baden.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Charles_Louis%2C_hereditary_prince_of_Baden.jpg/330px-Charles_Louis%2C_hereditary_prince_of_Baden.jpg"
+ },
+ "George_III": {
+  "extract": "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. During his reign, the Acts of Union 1800 merged Great Britain and Ireland into the United Kingdom. He was concurrently duke and prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was the first monarch of the House of Hanover who was born in Great Britain, spoke English as his first language, and never visited Hanover.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Allan_Ramsay_-_King_George_III_in_coronation_robes_-_Google_Art_Project.jpg/330px-Allan_Ramsay_-_King_George_III_in_coronation_robes_-_Google_Art_Project.jpg"
+ },
+ "Prince_Frederick_of_Hesse-Kassel": {
+  "extract": "Prince Frederick of Hesse-Kassel was a younger member of the ruling dynasty of the Landgraviate of Hesse-Kassel and a Danish general.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pilo_-_Friedrich_von_Hessen-Kassel_-_Museumslandschaft_Hessen_Kassel_%28cropped%29.png/330px-Pilo_-_Friedrich_von_Hessen-Kassel_-_Museumslandschaft_Hessen_Kassel_%28cropped%29.png"
+ },
+ "Prince_Wilhelm_of_Prussia_(1783–1851)": {
+  "extract": "Prince Friedrich Wilhelm Karl of Prussia was the son of Frederick William II of Prussia and Frederika Louisa of Hesse-Darmstadt.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Friedrich_Wilhelm_Karl_von_Preu%C3%9Fen_detail.jpg/330px-Friedrich_Wilhelm_Karl_von_Preu%C3%9Fen_detail.jpg"
+ },
+ "Friedrich_Karl_Ludwig,_Duke_of_Schleswig-Holstein-Sonderburg-Beck": {
+  "extract": "Friedrich Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck was the ninth and penultimate Duke of Schleswig-Holstein-Sonderburg-Beck. Friedrich Karl Ludwig was the son of Prince Karl Anton August of Schleswig-Holstein-Sonderburg-Beck and Countess Charlotte of Dohna-Schlodien.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Friedrich_Karl_Ludwig_Schleswig-Holstein.jpg/330px-Friedrich_Karl_Ludwig_Schleswig-Holstein.jpg"
+ },
+ "Prince_Edward,_Duke_of_Kent_and_Strathearn": {
+  "extract": "Prince Edward, Duke of Kent and Strathearn, was the fourth son and fifth child of King George III and Queen Charlotte. His only child, Victoria, became Queen of the United Kingdom 17 years after his death.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Edward%2C_Duke_of_Kent_and_Strathearn_by_Sir_William_Beechey.jpg/330px-Edward%2C_Duke_of_Kent_and_Strathearn_by_Sir_William_Beechey.jpg"
+ },
+ "William_Cavendish-Bentinck,_3rd_Duke_of_Portland": {
+  "extract": "William Henry Cavendish Cavendish-Bentinck, 3rd Duke of Portland was a British Whig and then a Tory politician during the late Georgian era. He served as chancellor of the University of Oxford (1792–1809) and as Prime Minister of Great Britain (1783) and then of the United Kingdom (1807–1809). The gap of 23 years between his two terms as prime minister is the longest of any British prime minister. He is also an ancestor of Queen Elizabeth II, and therefore King Charles III through his great-granddaughter Cecilia Bowes-Lyon, Countess of Strathmore and Kinghorne.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/3rd_Duke_of_Portland.jpg/330px-3rd_Duke_of_Portland.jpg"
+ },
+ "Charlotte_of_Mecklenburg-Strelitz": {
+  "extract": "Charlotte of Mecklenburg-Strelitz was Queen of Great Britain and Ireland as the wife of King George III from their marriage on 8 September 1761 until her death in 1818. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland. As George's wife, she was also Electress of Hanover until becoming Queen of Hanover on 12 October 1814. Charlotte was Britain's longest-serving queen consort, serving for 57 years and 70 days.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Charlotte_gainsborough.jpg/330px-Charlotte_gainsborough.jpg"
+ },
+ "Louis_II,_Grand_Duke_of_Hesse": {
+  "extract": "Louis II was Grand Duke of Hesse and by Rhine from 6 April 1830 until 16 June 1848. He was the son of Louis I, Grand Duke of Hesse, and Princess Louise of Hesse-Darmstadt.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Gotthelf_Leberecht_Glaeser_-_Gro%C3%9Fherzogs_Ludwig_II._von_Hessen_bei_Rhein.jpg/330px-Gotthelf_Leberecht_Glaeser_-_Gro%C3%9Fherzogs_Ludwig_II._von_Hessen_bei_Rhein.jpg"
+ },
+ "Duke_Louis_of_Württemberg": {
+  "extract": "Duke Ludwig Friedrich Alexander of Württemberg was the second son of Frederick II Eugene, Duke of Württemberg (1732–1797) and Margravine Sophia Dorothea of Brandenburg-Schwedt (1736–1798). His elder brother was Frederick I, the first King of Württemberg, and his sister was the Russian Empress consort, Maria Feodorovna. Louis retained the pre-royal title of Duke.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/94/Louis_von_W%C3%BCrttemberg_%28cropped%29.jpg"
+ },
+ "Prince_Charles_of_Hesse-Kassel": {
+  "extract": "Prince Charles of Hesse-Kassel was a cadet member of the house of Hesse-Kassel and a Danish general field marshal. Brought up with relatives at the Danish court, he spent most of his life in Denmark, serving as royal governor of the twin duchies of Schleswig-Holstein from 1769 to 1836 and commander-in-chief of the Norwegian army from 1772 to 1814.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Tischbein_Carl_von_Hessen.jpg/330px-Tischbein_Carl_von_Hessen.jpg"
+ },
+ "Franz_Leopold_Lafontaine": {
+  "extract": "Franz Anton Leopold Lafontaine was a German-born Polish military surgeon. He was known as the editor of the first Polish medical journal and for his work on catarrh.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Franz_Leopold_Lafontaine.JPG"
+ },
+ "Frederick,_Duke_of_Saxe-Altenburg": {
+  "extract": "Frederick, Duke of Saxe-Hildburghausen, was duke of Saxe-Hildburghausen (1780–1826) and duke of Saxe-Altenburg (1826–1834).",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/FriedrichHibuAltenburg.jpg/330px-FriedrichHibuAltenburg.jpg"
+ },
+ "Princess_Louise_of_Saxe-Gotha-Altenburg_(1800–1831)": {
+  "extract": "Louise of Saxe-Gotha-Altenburg was the wife of Ernst I, Duke of Saxe-Coburg-Saalfeld and the mother of Duke Ernst II and Prince Albert, husband of Queen Victoria.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Princess_Louise_of_Saxe-Gotha-Altenburg_%281800%E2%80%931831%29.jpg/330px-Princess_Louise_of_Saxe-Gotha-Altenburg_%281800%E2%80%931831%29.jpg"
+ },
+ "Princess_Amalie_of_Hesse-Darmstadt": {
+  "extract": "Princess Amalie of Hesse-Darmstadt was a Hereditary Princess of Baden by marriage to Charles Louis, Hereditary Prince of Baden. She was the daughter of Ludwig IX, Landgrave of Hesse-Darmstadt and Henriette Karoline of Palatine-Zweibrücken.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Amalie_von_Hessen-Darmstadt.png/330px-Amalie_von_Hessen-Darmstadt.png"
+ },
+ "Duchess_Sophia_Frederica_of_Mecklenburg-Schwerin": {
+  "extract": "Sophia Frederica of Mecklenburg-Schwerin was born a Princess and Duchess of Mecklenburg-Schwerin, and by marriage Hereditary Princess of Denmark and Norway.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/MatthieuSophieFriederike.jpg/330px-MatthieuSophieFriederike.jpg"
+ },
+ "Princess_Henriette_of_Nassau-Weilburg": {
+  "extract": "Princess Henriëtte of Nassau-Weilburg, then of Nassau was a German duchess. She was a daughter of Prince Charles Christian and Carolina of Orange-Nassau, daughter of William IV, Prince of Orange.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Herzogin_Henriette_von_W%C3%BCrttemberg.jpg/330px-Herzogin_Henriette_von_W%C3%BCrttemberg.jpg"
+ },
+ "Duchess_Charlotte_Georgine_of_Mecklenburg-Strelitz": {
+  "extract": "Duchess Charlotte Georgine of Mecklenburg-Strelitz was a member of the House of Mecklenburg-Strelitz and a Duchess of Mecklenburg-Strelitz by birth and a Duchess of Saxe-Hildburghausen through her marriage to Frederick, Duke of Saxe-Hildburghausen.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Portrait_of_Princess_Charlotte_von_Mecklenburg%2C_Duchess_of_Sachsen-Hildburghausen-Altenburg_%281769-1819%29_in_a_white_dress_and_red_shawl.jpg/330px-Portrait_of_Princess_Charlotte_von_Mecklenburg%2C_Duchess_of_Sachsen-Hildburghausen-Altenburg_%281769-1819%29_in_a_white_dress_and_red_shawl.jpg"
+ },
+ "Princess_Maria_Anna_of_Hesse-Homburg": {
+  "extract": "Princess Maria Anna of Hesse-Homburg was a German noblewoman. She was the most senior woman at the Prussian court from 1810 to 1823. She was styled as \"Princess Wilhelm of Prussia\".",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Princess_Maria_Anna_of_Hesse-Homburg.jpg/330px-Princess_Maria_Anna_of_Hesse-Homburg.jpg"
+ },
+ "Richard_Wellesley,_1st_Marquess_Wellesley": {
+  "extract": "Richard Colley Wellesley, 1st Marquess Wellesley, was an Anglo-Irish politician and colonial administrator. He was styled as Viscount Wellesley until 1781, when he succeeded his father as 2nd Earl of Mornington. In 1799, he was granted the Irish peerage title of Marquess Wellesley of Norragh. He was also Baron Wellesley in the Peerage of Great Britain. He was a great-great-great-grandfather of Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sir_Thomas_Lawrence_%281769-1830%29_-_Richard_Colley_Wellesley%2C_Marquess_Wellesley_%281760-1842%29_-_RCIN_400643_-_Royal_Collection.jpg/330px-Sir_Thomas_Lawrence_%281769-1830%29_-_Richard_Colley_Wellesley%2C_Marquess_Wellesley_%281760-1842%29_-_RCIN_400643_-_Royal_Collection.jpg"
+ },
+ "Frederick,_Hereditary_Prince_of_Denmark": {
+  "extract": "Frederick, Hereditary Prince of Denmark was heir presumptive to the thrones of Denmark and Norway. He was the only surviving son of King Frederick V and his second wife, Juliana Maria of Braunschweig-Wolfenbüttel. Even though he was the Regent by title for his brother Christian VII, his mother Juliana was the real defacto ruler of the Danish realm, who controlled, managed and held the real powers over the realm while he only held the official title.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Arveprins_Frederik_%281753-1805%29.jpg/330px-Arveprins_Frederik_%281753-1805%29.jpg"
+ },
+ "Princess_Louise_of_Denmark_(1750–1831)": {
+  "extract": "Princess Louise of Denmark and Norway was born to Frederick V of Denmark and Louise of Great Britain. Her eldest daughter, Marie of Hesse-Kassel, was the wife of Frederick VI of Denmark. Through her youngest daughter, Louise Caroline, she was also the maternal grandmother of Christian IX of Denmark.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Princess_Louise_of_Denmark_%281750%E2%80%931831%29.jpg/330px-Princess_Louise_of_Denmark_%281750%E2%80%931831%29.jpg"
+ },
+ "Princess_Caroline_of_Nassau-Usingen": {
+  "extract": "Princess Caroline of Nassau-Usingen was the elder daughter of Karl Wilhelm, Prince of Nassau-Usingen, and wife of Landgrave Frederick of Hesse-Kassel.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Caroline_of_Nassau-Usingen.jpg"
+ },
+ "Countess_Friederike_von_Schlieben": {
+  "extract": "Countess Friederike Amalie of Schlieben was the consort of Friedrich Karl Ludwig, Duke of Schleswig-Holstein-Sonderburg-Beck.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Friederike_Amalie_zu_Schleswig-Holstein-Sonderburg-Beck.jpg/330px-Friederike_Amalie_zu_Schleswig-Holstein-Sonderburg-Beck.jpg"
+ },
+ "Thomas_Lyon-Bowes,_11th_Earl_of_Strathmore_and_Kinghorne": {
+  "extract": "Thomas Lyon-Bowes, 11th Earl of Strathmore and Kinghorne was a Scottish nobleman and peer. He was the third son of John Bowes, 9th Earl of Strathmore and Kinghorne, and Mary Bowes, Countess of Strathmore and Kinghorne. His mother was the author of the verse drama, \"The Siege of Jerusalem\" (1769). He was the great-great-grandfather of Queen Elizabeth The Queen Mother.",
+  "thumbnail": null
+ },
+ "George_Smith_(1765–1836)": {
+  "extract": "George Smith was a British Member of Parliament (MP), banker and director of the East India Company.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/SmithArms_%28of_Thomas_Smith_II_%281682-1728%29%2C_of_Broxtowe%2C_Nottinghamshire%29.svg/330px-SmithArms_%28of_Thomas_Smith_II_%281682-1728%29%2C_of_Broxtowe%2C_Nottinghamshire%29.svg.png"
+ },
+ "Robert_Hodgson_(dean_of_Carlisle)": {
+  "extract": " Robert Hodgson was Dean of Carlisle from 1820 to 1844.",
+  "thumbnail": null
+ },
+ "Fryderyk_Karol_Emanuel_Hauke": {
+  "extract": "Fryderyk Karol Emanuel Hauke was a Polish and Saxon official, military officer, and teacher of Flemish origin.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Friedrich_Karl_Emanuel_Hauke.jpg/330px-Friedrich_Karl_Emanuel_Hauke.jpg"
+ },
+ "Dorothy_Bentinck,_Duchess_of_Portland": {
+  "extract": "Dorothy Bentinck, Duchess of Portland was Duchess of Portland and the wife of William Cavendish-Bentinck, 3rd Duke of Portland, the Prime Minister of Great Britain.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Dorothy_Cavendish%2C_wife_of_William_Cavendish_Bentinck%2C_3rd_Duke_of_Portland_%281738-1809%29_by_George_Romney.jpg/330px-Dorothy_Cavendish%2C_wife_of_William_Cavendish_Bentinck%2C_3rd_Duke_of_Portland_%281738-1809%29_by_George_Romney.jpg"
+ },
+ "Hyacinthe-Gabrielle_Wellesley,_Marchioness_Wellesley": {
+  "extract": "Hyacinthe-Gabrielle Wellesley, Marchioness Wellesley was a French actress who became the mistress, and later the wife, of Richard Wellesley, 1st Marquess Wellesley. As an actress, she was known as Gabrielle Fagan. Through her daughter, Anne, Rolland was a great-great-great grandmother of Queen Elizabeth II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Elisabeth_Vig%C3%A9e-Lebrun_-_Portrait_of_Hyacinthe_Gabrielle_Roland.jpg/330px-Elisabeth_Vig%C3%A9e-Lebrun_-_Portrait_of_Hyacinthe_Gabrielle_Roland.jpg"
+ },
+ "Catherine_the_Great": {
+  "extract": "Catherine II, commonly known as Catherine the Great, was the Empress of Russia from 1762 to 1796. She came to power after a coup d'état against her husband, Peter III. Her long reign helped Russia thrive under a golden age during the Enlightenment. This renaissance led to the founding of many new cities, universities, and theatres, along with large-scale immigration from the rest of Europe and the recognition of Russia as one of the great powers of Europe.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29.jpg/330px-Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29.jpg"
+ },
+ "Princess_Augusta_of_Saxe-Gotha": {
+  "extract": "Princess Augusta of Saxe-Gotha-Altenburg was Princess of Wales by marriage to Frederick, Prince of Wales, eldest son and heir apparent of King George II. She never became queen consort, as Frederick predeceased his father in 1751. Augusta's eldest son succeeded her father-in-law as George III in 1760. After her spouse died, Augusta was the presumptive regent of Great Britain in the event of a regency, until her son reached majority in 1756.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Thomas_Hudson_%281701-1779%29_-_Augusta_of_Saxe-Gotha_%281719%E2%80%931772%29%2C_Princess_of_Wales_-_766114_-_National_Trust.jpg/330px-Thomas_Hudson_%281701-1779%29_-_Augusta_of_Saxe-Gotha_%281719%E2%80%931772%29%2C_Princess_of_Wales_-_766114_-_National_Trust.jpg"
+ },
+ "William_Bentinck,_2nd_Duke_of_Portland": {
+  "extract": "William Bentinck, 2nd Duke of Portland, styled Viscount Woodstock from 1709 to 1716 and Marquess of Titchfield from 1716 to 1726, was a British peer and politician.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/William_Bentinck%2C_2nd_Duke_of_Portland_KG_%281709%E2%80%931762%29%2C_by_Christian_Friedrich_Zincke.jpg/330px-William_Bentinck%2C_2nd_Duke_of_Portland_KG_%281709%E2%80%931762%29%2C_by_Christian_Friedrich_Zincke.jpg"
+ },
+ "Margaret_Bentinck,_Duchess_of_Portland": {
+  "extract": "Margaret Cavendish Bentinck, Duchess of Portland was the richest woman in Great Britain of her time, styled Lady Margaret Harley before 1734, Duchess of Portland from 1734 to her husband's death in 1761, and Dowager Duchess of Portland from 1761 until her own death in 1785.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Margaret_Cavendish_Bentinck.jpg/330px-Margaret_Cavendish_Bentinck.jpg"
+ },
+ "Peter_III_of_Russia": {
+  "extract": "Peter III Fyodorovich was Emperor of Russia from 5 January 1762 until 9 July of the same year, when his wife, Catherine II, overthrew him in a palace coup d'état. He implemented many notable reforms during his reign, though he is criticised for undoing Russian gains in the Seven Years' War by forming an alliance with Prussia.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coronation_portrait_of_Peter_III_of_Russia_-1761.JPG/330px-Coronation_portrait_of_Peter_III_of_Russia_-1761.JPG"
+ },
+ "Juliana_Maria_of_Brunswick-Wolfenbüttel": {
+  "extract": "Juliana Maria of Brunswick-Wolfenbüttel-Bevern was Queen of Denmark and Norway from 1752 to 1766 as the second consort of King Frederick V of Denmark and Norway. She was mother to the prince-regent, Hereditary Prince Frederick of Denmark and Norway, and was herself de facto regent from 1772 to 1784. King Christian VIII of Denmark and every subsequent Danish monarch excluding Christian IX descends from her.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Vigilius_Eriksen%2C_Enkedronning_Juliane_Marie%2C_1776%2C_KMS4056%2C_Statens_Museum_for_Kunst.jpg/330px-Vigilius_Eriksen%2C_Enkedronning_Juliane_Marie%2C_1776%2C_KMS4056%2C_Statens_Museum_for_Kunst.jpg"
+ },
+ "Frederick_II_Eugene,_Duke_of_Württemberg": {
+  "extract": "Friedrich Eugen, Duke of Württemberg was the fourth son of Karl Alexander, Duke of Württemberg, and Princess Maria Augusta of Thurn and Taxis. He was born in Stuttgart. From 1795 until 1797, he was Duke of Württemberg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Circle_of_Pesne_-_Prince_Friedrich_Eugen_of_W%C3%BCrttemberg.png/330px-Circle_of_Pesne_-_Prince_Friedrich_Eugen_of_W%C3%BCrttemberg.png"
+ },
+ "Princess_Mary_of_Great_Britain": {
+  "extract": "Mary of Great Britain was the second-youngest daughter of George II of Great Britain and his wife, Caroline of Ansbach, and Landgravine of Hesse-Kassel as the wife of Frederick II, Landgrave of Hesse-Kassel.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Landgr%C3%A4fin_Marie_von_Hessen-Kassel.jpg/330px-Landgr%C3%A4fin_Marie_von_Hessen-Kassel.jpg"
+ },
+ "Countess_Augusta_Reuss_of_Ebersdorf": {
+  "extract": "Augusta of Reuss-Ebersdorf, was by marriage the Duchess of Saxe-Coburg-Saalfeld. She was the grandmother and godmother of both Queen Victoria of the United Kingdom and her husband and cousin, Prince Albert of Saxe-Coburg and Gotha.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Artemisia.jpg/330px-Artemisia.jpg"
+ },
+ "Duchess_Louise_Charlotte_of_Mecklenburg-Schwerin": {
+  "extract": "Duchess Louise Charlotte of Mecklenburg-Schwerin was the maternal grandmother of Prince Albert, husband of Queen Victoria of the United Kingdom.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Louise_Charlotte_of_Mecklenburg-Schwerin%2C_Hereditary_Princess_of_Saxe-Gotha-Altenburg.jpg/330px-Louise_Charlotte_of_Mecklenburg-Schwerin%2C_Hereditary_Princess_of_Saxe-Gotha-Altenburg.jpg"
+ },
+ "Louis,_Hereditary_Prince_of_Mecklenburg-Schwerin": {
+  "extract": "Louis, Hereditary Prince of Mecklenburg-Schwerin was heir to the Dukedom of Mecklenburg-Schwerin from 1756 until his death in 1778. He was also the father of the first Grand Duke of Mecklenburg-Schwerin, Frederick Francis I.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ludwig%2C_Hereditary_Prince_of_Mecklenburg-Schwerin_by_Georg_David_Matthieu_%28Schweriner_Schloss%29.jpg/330px-Ludwig%2C_Hereditary_Prince_of_Mecklenburg-Schwerin_by_Georg_David_Matthieu_%28Schweriner_Schloss%29.jpg"
+ },
+ "Countess_Palatine_Caroline_of_Zweibrücken": {
+  "extract": "Caroline of the Palatinate-Zweibrücken was Landgravine of Hesse-Darmstadt by marriage to Louis IX, Landgrave of Hesse-Darmstadt. She was famed as one of the most learned women of her time and known as The Great Landgräfin.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Ca_1750_caroline_von_hessen.jpg/330px-Ca_1750_caroline_von_hessen.jpg"
+ },
+ "Augustus,_Duke_of_Saxe-Gotha-Altenburg": {
+  "extract": "Augustus, Duke of Saxe-Gotha-Altenburg, was a Duke of Saxe-Gotha-Altenburg, and the author of one of the first modern novels to treat of homoerotic love. He was the maternal grandfather of Prince Albert, consort of Queen Victoria.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ludwig_Doell_-_Portr%C3%A4t_des_Herzogs_August_von_Sachsen-Gotha-Altenburg_%281812%29.jpg/330px-Ludwig_Doell_-_Portr%C3%A4t_des_Herzogs_August_von_Sachsen-Gotha-Altenburg_%281812%29.jpg"
+ },
+ "Prince_Karl_Anton_August_of_Schleswig-Holstein-Sonderburg-Beck": {
+  "extract": "Prince Karl Anton August of Schleswig-Holstein-Sonderburg-Beck was the son of Peter August, Duke of Schleswig-Holstein-Sonderburg-Beck and Princess Sophie of Hesse-Philippsthal.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Portrait_of_Carl_Anton_Auguste_Holstein-Beck.jpg/330px-Portrait_of_Carl_Anton_Auguste_Holstein-Beck.jpg"
+ },
+ "Princess_Charlotte_Sophie_of_Saxe-Coburg-Saalfeld": {
+  "extract": "Princess Charlotte Sophie of Saxe-Coburg-Saalfeld, Duchess in Saxony was a German duchess. She was the daughter of Franz Josias, Duke of Saxe-Coburg-Saalfeld and Princess Anna Sophie of Schwarzburg-Rudolstadt.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Princess_Charlotte_Sophie_of_Saxe-Coburg-Saalfeld.JPG/330px-Princess_Charlotte_Sophie_of_Saxe-Coburg-Saalfeld.JPG"
+ },
+ "Princess_Ernestine_of_Saxe-Weimar-Eisenach": {
+  "extract": "Princess Ernestine Auguste Sophie of Saxe-Weimar-Eisenach was a princess of Saxe-Weimar-Eisenach and by marriage Duchess of Saxe-Hildburghausen.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Ernestine_of_Saxe-Weimar_duchess_of_Saxe-Hildburghausen.JPG/330px-Ernestine_of_Saxe-Weimar_duchess_of_Saxe-Hildburghausen.JPG"
+ },
+ "Frederick_II,_Landgrave_of_Hesse-Kassel": {
+  "extract": "Frederick II was Landgrave of Hesse-Kassel from 1760 to 1785. He ruled as an enlightened despot, and raised money by renting soldiers to Great Britain to help fight the American Revolutionary War. He combined Enlightenment ideas with Christian values, cameralist plans for central control of the economy, and a militaristic approach toward international diplomacy.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Johann_Heinrich_Tischbein_-_Retrato_del_Landgrave_Federico_II_de_Hesse-Kassel.jpg/330px-Johann_Heinrich_Tischbein_-_Retrato_del_Landgrave_Federico_II_de_Hesse-Kassel.jpg"
+ },
+ "Francis,_Duke_of_Saxe-Coburg-Saalfeld": {
+  "extract": "Francis, Duke of Saxe-Coburg-Saalfeld, was a reigning Duke of Saxe-Coburg-Saalfeld, one of the ruling Thuringian dukes of the House of Wettin. As progenitor of a line of Coburg princes who, in the 19th and 20th centuries, ascended the thrones of several European realms, he is a patrilineal ancestor of the royal houses of Belgium and Bulgaria, as well as of several queens consort and the empress consort of Mexico in the 1860s.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Johann_Heinrich_Schr%C3%B6der_-_Herzog_Franz_Friedrich_Anton_von_Sachsen-Coburg-Saalfeld.jpg/330px-Johann_Heinrich_Schr%C3%B6der_-_Herzog_Franz_Friedrich_Anton_von_Sachsen-Coburg-Saalfeld.jpg"
+ },
+ "Princess_Caroline_of_Hesse-Darmstadt": {
+  "extract": "Caroline of Hesse-Darmstadt was Landgravine consort of Hesse-Homburg by marriage to Frederick V, Landgrave of Hesse-Homburg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Johann_Heinrich_Schmidt_-_Landgr%C3%A4fin_Caroline_von_Hessen-Homburg_geb._Prinzessin_von_Hessen-Darmstadt.png/330px-Johann_Heinrich_Schmidt_-_Landgr%C3%A4fin_Caroline_von_Hessen-Homburg_geb._Prinzessin_von_Hessen-Darmstadt.png"
+ },
+ "Charles_Christian,_Prince_of_Nassau-Weilburg": {
+  "extract": "Charles Christian, Prince of Nassau-Weilburg, until 1753 Count of Nassau-Weilburg, was the first ruler of the Principality of Nassau-Weilburg between 1753 and 1788.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/d2/KCNassau.jpg"
+ },
+ "Abel_Smith_(1717–1788)": {
+  "extract": "Abel Smith of Wilford House in the parish of Wilford, near Nottingham, England, was one of the leading bankers of his time, a member of a banking family, and also served as a Member of Parliament.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/SmithArms_%28of_Thomas_Smith_II_%281682-1728%29%2C_of_Broxtowe%2C_Nottinghamshire%29.svg/330px-SmithArms_%28of_Thomas_Smith_II_%281682-1728%29%2C_of_Broxtowe%2C_Nottinghamshire%29.svg.png"
+ },
+ "Count_Karl_Leopold_von_Schlieben": {
+  "extract": "Count Karl Leopold von Schlieben was the Prussian Minister of War between 1769 and 1772.",
+  "thumbnail": null
+ },
+ "Countess_Karoline_Felizitas_of_Leiningen-Dagsburg-Falkenburg": {
+  "extract": "Caroline Felizitas of Leiningen-Dagsburg-Falkenburg was a German Imperial countess. By birth, she was member of the House of Leiningen and by marriage member of the House of Nassau.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bracelet_with_miniature_of_Caroline_Felicitas_%281734-1810%29%2C_Princess_of_Nassau-Usingen.jpg/330px-Bracelet_with_miniature_of_Caroline_Felicitas_%281734-1810%29%2C_Princess_of_Nassau-Usingen.jpg"
+ },
+ "Mary_Bowes,_Countess_of_Strathmore_and_Kinghorne": {
+  "extract": "Mary Eleanor Bowes, Countess of Strathmore and Kinghorne was a notable member of the British aristocracy during the Georgian period in the 18th century.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mary_Eleanor_Bowes.jpg/330px-Mary_Eleanor_Bowes.jpg"
+ },
+ "Anne_Wellesley,_Countess_of_Mornington": {
+  "extract": "Anne Wellesley, Countess of Mornington, was an Anglo-Italian aristocrat. She was born in Udine in June 1742, in the Foscari summer residence located near Udine, province of the Venetian Republic's inland territories. She was the wife of Garret Wesley, 1st Earl of Mornington and mother of the victor of the Battle of Waterloo, Field Marshal Arthur Wellesley, 1st Duke of Wellington.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Portrait_of_Anne_Wellesley%2C_Countess_of_Mornington_%284674635%29.jpg/330px-Portrait_of_Anne_Wellesley%2C_Countess_of_Mornington_%284674635%29.jpg"
+ },
+ "Sir_John_Mosley,_1st_Baronet": {
+  "extract": "Sir John Parker Mosley, 1st Baronet of Ancoats, was an English landowner and baronet.",
+  "thumbnail": null
+ },
+ "Ernest_Frederick_III": {
+  "extract": "Ernest Frederick III Karl, was a duke of Saxe-Hildburghausen.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Johann_Valentin_Tischbein_-_Ernst_Friedrich_III_of_Saxony-Hildburghausen.jpg/330px-Johann_Valentin_Tischbein_-_Ernst_Friedrich_III_of_Saxony-Hildburghausen.jpg"
+ },
+ "Duke_Charles_Louis_Frederick_of_Mecklenburg": {
+  "extract": "Duke Charles Louis Frederick of Mecklenburg-Strelitz was a member of the Strelitz branch of the House of Mecklenburg. He was the father of Queen Charlotte of the United Kingdom and Hanover and Duke Adolphus Frederick IV of Mecklenburg-Strelitz.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Charles_Louis_of_Mecklenburg-Strelitz_prince_of_Mirow.jpg/330px-Charles_Louis_of_Mecklenburg-Strelitz_prince_of_Mirow.jpg"
+ },
+ "Countess_Charlotte_of_Dohna-Leistenau": {
+  "extract": "Countess Friederike Charlotte Antoinette of Dohna-Schlodien in Leistenau was a German noblewoman.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Prinzessin_Friederike_Antonie_Amalie.jpg/330px-Prinzessin_Friederike_Antonie_Amalie.jpg"
+ },
+ "Andrew_Burnaby": {
+  "extract": "Andrew Burnaby was an English clergyman and travel writer, mainly about the American colonies and Italy.",
+  "thumbnail": null
+ },
+ "Charlotte_Cavendish,_Marchioness_of_Hartington": {
+  "extract": "Charlotte Elizabeth Cavendish, Marchioness of Hartington, 6th Baroness Clifford was the daughter of Richard Boyle, 3rd Earl of Burlington and Lady Dorothy Savile. From 1748 until her death, she was married to William Cavendish, Marquess of Hartington, later the 4th Duke of Devonshire and Prime Minister of Great Britain.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Charlotte_Boyle%2C_after_George_Knapton.jpg/330px-Charlotte_Boyle%2C_after_George_Knapton.jpg"
+ },
+ "Garret_Wesley,_1st_Earl_of_Mornington": {
+  "extract": "Garret Wesley, 1st Earl of Mornington was an Anglo-Irish politician and composer and the father of a distinguished military commander and several politicians of Great Britain and Ireland.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Garret_Wesley_1st_Earl_of_Mornington.jpg/330px-Garret_Wesley_1st_Earl_of_Mornington.jpg"
+ },
+ "John_Bowes,_9th_Earl_of_Strathmore_and_Kinghorne": {
+  "extract": "John Bowes, 9th Earl of Strathmore and Kinghorne, born John Lyon, was a Scottish nobleman and peer. He was the 9th Earl of Strathmore and Kinghorne and one of the maternal ancestors of King Charles III.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/bc/The_9th_Earl_of_Strathmore.jpg"
+ },
+ "Frederick_William_II_of_Prussia": {
+  "extract": "Frederick William II was King of Prussia from 1786 until his death in 1797. He was also Prince-elector of Brandenburg and Prince of Neuchâtel.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Anton_Graff_-_Frederick_William_II_of_Prussia.png/330px-Anton_Graff_-_Frederick_William_II_of_Prussia.png"
+ },
+ "Frederick_V_of_Denmark": {
+  "extract": "Frederick V was King of Denmark and Norway and Duke of Schleswig-Holstein from 6 August 1746 until his death in 1766. A member of the House of Oldenburg, he was the son of Christian VI of Denmark and Sophie Magdalene of Brandenburg-Kulmbach.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/C.G._Pilo_-_Portrait_of_Frederik_V_in_Anointment_Robe_-_Google_Art_Project.jpg/330px-C.G._Pilo_-_Portrait_of_Frederik_V_in_Anointment_Robe_-_Google_Art_Project.jpg"
+ },
+ "Frederick,_Prince_of_Wales": {
+  "extract": "Frederick, Prince of Wales, was the eldest son and heir apparent of King George II of Great Britain. He grew estranged from his parents, King George and Queen Caroline. Frederick was the father of King George III.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Hudson_-_Frederick%2C_Prince_of_Wales.jpg/330px-Hudson_-_Frederick%2C_Prince_of_Wales.jpg"
+ },
+ "Louise_of_Great_Britain": {
+  "extract": "Louise of Great Britain was Queen of Denmark and Norway from 1746 until her death, as the first wife of King Frederick V. She was the youngest surviving daughter of King George II of Great Britain and Caroline of Ansbach.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Louise_of_Great_Britain%2C_Queen_of_Denmark_and_Norway.jpg/330px-Louise_of_Great_Britain%2C_Queen_of_Denmark_and_Norway.jpg"
+ },
+ "Charles_William,_Prince_of_Nassau-Usingen": {
+  "extract": "Charles William was Prince of Nassau-Usingen from 1775 until his death. From 1797 until his death, he was also titular Prince of Nassau-Saarbrücken, however, Nassau-Saarbrücken was occupied by France during that period.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Carl_Wilhelm_von_Usingen_Nassau.jpg/330px-Carl_Wilhelm_von_Usingen_Nassau.jpg"
+ },
+ "Louis_I,_Grand_Duke_of_Hesse": {
+  "extract": "Louis I, Grand Duke of Hesse was Landgrave of Hesse-Darmstadt and later the first Grand Duke of Hesse and by Rhine.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Schmidt_-_Louis_I%2C_Grand_Duke_of_Hesse_-_Darmstadt_Schlossmuseum.png/330px-Schmidt_-_Louis_I%2C_Grand_Duke_of_Hesse_-_Darmstadt_Schlossmuseum.png"
+ },
+ "Charles_II,_Grand_Duke_of_Mecklenburg-Strelitz": {
+  "extract": "Charles II was ruler of the state of Mecklenburg-Strelitz from 1794 until his death. Originally ruling as duke, he was raised to the rank of grand duke in 1815. Prior to succeeding to the throne, he served as Governor of Hanover from 1776 to 1786.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Carl_Ludwig_Friedrich_%281741-1816%29%2C_Duke_of_Mecklenburg-Strelitz%2C_later_Carl_II%2C_Grand_Duke_of_Mecklenburg-Strelitz.jpg/330px-Carl_Ludwig_Friedrich_%281741-1816%29%2C_Duke_of_Mecklenburg-Strelitz%2C_later_Carl_II%2C_Grand_Duke_of_Mecklenburg-Strelitz.jpg"
+ },
+ "Louis_IX,_Landgrave_of_Hesse-Darmstadt": {
+  "extract": "Louis IX of Hesse-Darmstadt was Landgrave of Hesse-Darmstadt from 1768 to 1790.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bouxwiller_Mus%C3%A9ePaysHanau_14.JPG/330px-Bouxwiller_Mus%C3%A9ePaysHanau_14.JPG"
+ },
+ "Charles_Frederick,_Grand_Duke_of_Baden": {
+  "extract": "Charles Frederick was Margrave, Elector and later Grand Duke of Baden from 1738 until his death.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Karl_Friedrich_Markgraf_von_Baden.jpg/330px-Karl_Friedrich_Markgraf_von_Baden.jpg"
+ },
+ "Frederick_V,_Landgrave_of_Hesse-Homburg": {
+  "extract": "Frederick V Louis William Christian, Landgrave of Hesse-Homburg was from 1751 to his death landgrave of Hesse-Homburg.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Friedrich_V%2C_Landgrave_of_Hesse-Homburg_-_Frankfurter_Goethe-Museum.png/330px-Friedrich_V%2C_Landgrave_of_Hesse-Homburg_-_Frankfurter_Goethe-Museum.png"
+ },
+ "Frederica_Louisa_of_Hesse-Darmstadt": {
+  "extract": "Frederica Louisa of Hesse-Darmstadt was Queen of Prussia and Electress of Brandenburg as the second wife of King Frederick William II.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Friederike_Luise_von_Hessen-Darmstadt_%28Therbusch%29_%28cropped%29.jpg/330px-Friederike_Luise_von_Hessen-Darmstadt_%28Therbusch%29_%28cropped%29.jpg"
+ },
+ "William_Cavendish,_4th_Duke_of_Devonshire": {
+  "extract": "William Cavendish, 4th Duke of Devonshire, styled Lord Cavendish before 1729, and Marquess of Hartington between 1729 and 1755, was a British Whig statesman and nobleman who was briefly nominal Prime Minister of Great Britain. He was the first son of William Cavendish, 3rd Duke of Devonshire and his wife, Catherine. He is also a great-great-great-great-great-grandfather of King Charles III through the king's maternal great-grandmother, Cecilia Bowes-Lyon, Countess of Strathmore and Kinghorne.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/4th_Duke_of_Devonshire_after_Hudson.jpg/330px-4th_Duke_of_Devonshire_after_Hudson.jpg"
+ },
+ "Princess_Friederike_of_Brandenburg-Schwedt": {
+  "extract": "Friederike of Brandenburg-Schwedt was Duchess of Württemberg by marriage to Frederick II Eugene, Duke of Württemberg. She is an ancestress to many European royals of the 19th and 20th centuries.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/JHW_Tischbein_Dorothea_von_Brandenburg-Schwedt.jpg/330px-JHW_Tischbein_Dorothea_von_Brandenburg-Schwedt.jpg"
+ },
+ "Princess_Carolina_of_Orange-Nassau": {
+  "extract": "Princess Carolina of Orange-Nassau was a Dutch regent. She was the daughter of William IV, Prince of Orange, Stadtholder of the Netherlands, and Anne, Princess Royal. She was regent of the Netherlands from 1765 until 1766 during the minority of her brother, William V.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Anonymous_-_Portret_van_Carolina_van_Oranje-Nassau_%28cropped%29.jpg/330px-Anonymous_-_Portret_van_Carolina_van_Oranje-Nassau_%28cropped%29.jpg"
+ },
+ "Princess_Friederike_of_Hesse-Darmstadt": {
+  "extract": "Princess Friederike Caroline Luise of Hesse-Darmstadt was a member of the House of Hesse and by marriage a Duchess of Mecklenburg-Strelitz.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Schmidt_-_Friederike_Caroline_of_Hesse-Darmstadt.png/330px-Schmidt_-_Friederike_Caroline_of_Hesse-Darmstadt.png"
+ },
+ "Princess_Louise_of_Hesse-Darmstadt_(1761–1829)": {
+  "extract": "Princess Louise of Hesse-Darmstadt, was the first Grand Duchess of Hesse and by Rhine by marriage.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Dryander_-_Louise_Karoline_Henriette_of_Hesse-Darmstadt.png/330px-Dryander_-_Louise_Karoline_Henriette_of_Hesse-Darmstadt.png"
+ },
+ "Princess_Caroline_Louise_of_Hesse-Darmstadt": {
+  "extract": "Princess Caroline Louise of Hesse-Darmstadt, was a consort of Baden, a dilettante artist, scientist, collector and salonist.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Presumed_portrait_of_Caroline_of_Hesse-Darmstadt%2C_So-called_Catherine_II.png/330px-Presumed_portrait_of_Caroline_of_Hesse-Darmstadt%2C_So-called_Catherine_II.png"
+ },
+ "Princess_Elisabeth_Albertine_of_Saxe-Hildburghausen": {
+  "extract": "Elisabeth Albertine of Saxe-Hildburghausen was a Duchess of Mecklenburg-Strelitz. She served as regent for her son after the deaths in 1752–1753 of her husband and brother-in-law of, respectively, the ducal appanage of Mirow and of the Duchy of Mecklenburg-Strelitz.",
+  "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Elizabeth_Albertine_of_Saxe-Hildburghausen.jpg/330px-Elizabeth_Albertine_of_Saxe-Hildburghausen.jpg"
+ }
+}
