@@ -1,0 +1,9 @@
+# Vendored D3 (re-fetched by build_tree.py; already inlined into index.html)
+data/d3.min.js
+
+# Your private FamilySearch exports — never commit these
+*.ged
+*.gedcom
+
+__pycache__/
+*.pyc
