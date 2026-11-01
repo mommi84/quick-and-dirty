@@ -1,0 +1,213 @@
+continent,country,region,city,name,pin_type,contrib_count,geo_id
+Asia,Japan,Nara Prefecture,Nara,"Nara, Japan",been,0,
+Asia,Japan,Osaka Prefecture,Osaka,"Osaka, Japan",been,0,
+Europe,Croatia,,Krk,"Krk, Croatia",been,0,1067956
+Europe,Croatia,,Njivice,"Njivice, Croatia",been,0,1067961
+Europe,Croatia,,Plitvica,"Plitvica, Croatia",been,0,1190792
+Europe,Croatia,,Zagreb,"Zagreb, Croatia",been,0,294454
+Europe,Czech Republic,,Prague,"Prague, Czech Republic",fave,0,274707
+Europe,France,,Aix-en-Provence,"Aix-en-Provence, France",been,0,187209
+Europe,France,,Allevard,"Allevard, France",been,0,196691
+Europe,France,,Arles,"Arles, France",been,0,187211
+Europe,France,,Avignon,"Avignon, France",been,0,187212
+Europe,France,,Bastia,"Bastia, France",been,0,187141
+Europe,France,,Bonifacio,"Bonifacio, France",been,0,612416
+Europe,France,,Calvi,"Calvi, France",been,0,196482
+Europe,France,,Carcassonne Center,"Carcassonne Center, France",been,0,187151
+Europe,France,,Corte,"Corte, France",been,0,635788
+Europe,France,,Grenoble,"Grenoble, France",been,0,187264
+Europe,France,,Ile Rousse,"Ile Rousse, France",been,0,635566
+Europe,France,,Lumio,"Lumio, France",been,0,776031
+Europe,France,,Nice,"Nice, France",been,0,187234
+Europe,France,,Paris,"Paris, France",fave,0,187147
+Europe,France,,Porto-Vecchio,"Porto-Vecchio, France",been,0,196484
+Europe,Germany,,Berlin,"Berlin, Germany",fave,0,187323
+Europe,Germany,,Hamburg,"Hamburg, Germany",been,0,187331
+Europe,Germany,Baden-Wurttemberg,Freiburg im Breisgau,"Freiburg im Breisgau, Germany",been,0,
+Europe,Germany,Baden-Wurttemberg,Stuttgart,"Stuttgart, Germany",been,0,
+Europe,Germany,Bavaria,Ansbach,"Ansbach, Germany",been,0,
+Europe,Germany,Bavaria,Coburg,"Coburg, Germany",been,0,
+Europe,Germany,Bavaria,Lindau,"Lindau, Germany",been,0,
+Europe,Germany,Bavaria,Munich,"Munich, Germany",fave,0,
+Europe,Germany,Lower Saxony,Goettingen,"Goettingen, Germany",been,0,
+Europe,Germany,Lower Saxony,Hildesheim,"Hildesheim, Germany",been,0,
+Europe,Germany,Lower Saxony,Oldenburg,"Oldenburg, Germany",been,0,
+Europe,Germany,Lower Saxony,Sandstedt,"Sandstedt, Germany",been,0,
+Europe,Germany,Saxony,Annaberg-Buchholz,"Annaberg-Buchholz, Germany",been,0,
+Europe,Germany,Saxony,Chemnitz,"Chemnitz, Germany",been,0,
+Europe,Germany,Saxony,Dresden,"Dresden, Germany",been,0,
+Europe,Germany,Saxony,Glauchau,"Glauchau, Germany",been,0,
+Europe,Germany,Saxony,Hartenstein,"Hartenstein, Germany",been,0,
+Europe,Germany,Saxony,Leipzig,"Leipzig, Germany",been,0,
+Europe,Germany,Saxony,Seiffen,"Seiffen, Germany",been,0,
+Europe,Germany,Saxony,Zwickau,"Zwickau, Germany",been,0,
+Europe,Germany,Schleswig-Holstein,Wacken,"Wacken, Germany",been,0,
+Europe,Greece,,Athens,"Athens, Greece",been,0,189400
+Europe,Greece,,Chania Town,"Chania Town, Greece",been,0,189415
+Europe,Greece,,Chios,"Chios, Greece",been,0,189476
+Europe,Greece,,Igoumenitsa,"Igoumenitsa, Greece",been,0,735758
+Europe,Greece,,Lefkada,"Lefkada, Greece",been,0,189460
+Europe,Greece,,Lipsi,"Lipsi, Greece",been,0,1152207
+Europe,Greece,,Patras,"Patras, Greece",been,0,189488
+Europe,Greece,,Piraeus,"Piraeus, Greece",been,0,189403
+Europe,Greece,,Skopelos,"Skopelos, Greece",been,0,189501
+Europe,Greece,,Skyros,"Skyros, Greece",been,0,189500
+Europe,Ireland,Province of Leinster,Bray,"Bray, Ireland",been,0,
+Europe,Ireland,Province of Leinster,Dublin,"Dublin, Ireland",been,0,
+Europe,Italy,,Angera,"Angera, Italy",been,0,664200
+Europe,Italy,,Arenzano,"Arenzano, Italy",been,0,780707
+Europe,Italy,,Arona,"Arona, Italy",been,0,616180
+Europe,Italy,,Baveno,"Baveno, Italy",been,0,187844
+Europe,Italy,,Como,"Como, Italy",been,0,187835
+Europe,Italy,,Deiva Marina,"Deiva Marina, Italy",been,0,1081168
+Europe,Italy,,Genoa,"Genoa, Italy",been,0,187823
+Europe,Italy,,Laigueglia,"Laigueglia, Italy",been,0,194786
+Europe,Italy,,Laveno-Mombello,"Laveno-Mombello, Italy",been,0,664206
+Europe,Italy,,Loano,"Loano, Italy",been,0,194801
+Europe,Italy,,Luino,"Luino, Italy",been,0,616176
+Europe,Italy,,Milan,"Milan, Italy",been,0,187849
+Europe,Italy,,Porto Venere,"Porto Venere, Italy",been,0,194862
+Europe,Italy,,Rome,"Rome, Italy",fave,0,187791
+Europe,Italy,,Sanremo,"Sanremo, Italy",been,0,194900
+Europe,Italy,,Varazze,"Varazze, Italy",been,0,194941
+Europe,Italy,,Verbania,"Verbania, Italy",been,0,194944
+Europe,Italy,Province of Agrigento,Agrigento,"Agrigento, Italy",been,0,
+Europe,Italy,Province of Alessandria,Alessandria,"Alessandria, Italy",been,0,
+Europe,Italy,Province of Ancona,Genga,"Genga, Italy",been,0,
+Europe,Italy,Province of Ancona,Numana,"Numana, Italy",been,0,
+Europe,Italy,Province of Ancona,Sirolo,"Sirolo, Italy",been,0,
+Europe,Italy,Province of Bergamo,Bergamo,"Bergamo, Italy",been,0,
+Europe,Italy,Province of Biella,Biella,"Biella, Italy",been,0,
+Europe,Italy,Province of Bologna,Bologna,"Bologna, Italy",been,0,
+Europe,Italy,Province of Brescia,Sirmione,"Sirmione, Italy",been,0,
+Europe,Italy,Province of Cagliari,Cagliari,"Cagliari, Italy",been,0,
+Europe,Italy,Province of Caltanissetta,Gela,"Gela, Italy",been,0,
+Europe,Italy,Province of Catania,Caltagirone,"Caltagirone, Italy",been,0,
+Europe,Italy,Province of Catania,Catania,"Catania, Italy",been,0,
+Europe,Italy,Province of Como,Campione d'Italia,"Campione d'Italia, Italy",been,0,
+Europe,Italy,Province of Enna,Piazza Armerina,"Piazza Armerina, Italy",been,0,
+Europe,Italy,Province of Florence,Florence,"Florence, Italy",fave,0,
+Europe,Italy,Province of Grosseto,Follonica,"Follonica, Italy",been,0,
+Europe,Italy,Province of Lecco,Lecco,"Lecco, Italy",been,0,
+Europe,Italy,Province of Livorno,Donoratico,"Donoratico, Italy",been,0,
+Europe,Italy,Province of Livorno,San Vincenzo,"San Vincenzo, Italy",been,0,
+Europe,Italy,Province of Mantua,Castiglione Delle Stiviere,"Castiglione Delle Stiviere, Italy",been,0,
+Europe,Italy,Province of Messina,Messina,"Messina, Italy",been,0,
+Europe,Italy,Province of Milan,Cinisello Balsamo,"Cinisello Balsamo, Italy",been,0,
+Europe,Italy,Province of Milan,Sesto San Giovanni,"Sesto San Giovanni, Italy",been,0,
+Europe,Italy,Province of Novara,Borgomanero,"Borgomanero, Italy",been,0,
+Europe,Italy,Province of Novara,Novara,"Novara, Italy",been,0,
+Europe,Italy,Province of Nuoro,Nuoro,"Nuoro, Italy",been,0,
+Europe,Italy,Province of Nuoro,Orgosolo,"Orgosolo, Italy",been,0,
+Europe,Italy,Province of Nuoro,Orosei,"Orosei, Italy",been,0,
+Europe,Italy,Province of Nuoro,Siniscola,"Siniscola, Italy",been,0,
+Europe,Italy,Province of Ogliastra,Arbatax,"Arbatax, Italy",been,0,
+Europe,Italy,Province of Ogliastra,Lanusei,"Lanusei, Italy",been,0,
+Europe,Italy,Province of Ogliastra,Tortoli,"Tortoli, Italy",been,0,
+Europe,Italy,Province of Olbia-Tempio,Budoni,"Budoni, Italy",been,0,
+Europe,Italy,Province of Olbia-Tempio,Cannigione,"Cannigione, Italy",been,0,
+Europe,Italy,Province of Olbia-Tempio,Olbia,"Olbia, Italy",been,0,
+Europe,Italy,Province of Olbia-Tempio,Porto Cervo,"Porto Cervo, Italy",been,0,
+Europe,Italy,Province of Olbia-Tempio,San Teodoro,"San Teodoro, Italy",been,0,
+Europe,Italy,Province of Olbia-Tempio,Santa Teresa Gallura,"Santa Teresa Gallura, Italy",been,0,
+Europe,Italy,Province of Olbia-Tempio,Tempio Pausania,"Tempio Pausania, Italy",been,0,
+Europe,Italy,Province of Oristano,Bosa,"Bosa, Italy",been,0,
+Europe,Italy,Province of Oristano,Oristano,"Oristano, Italy",been,0,
+Europe,Italy,Province of Oristano,San Vero Milis,"San Vero Milis, Italy",been,0,
+Europe,Italy,Province of Padua,Padua,"Padua, Italy",been,0,
+Europe,Italy,Province of Pavia,Santa Maria della Versa,"Santa Maria della Versa, Italy",been,0,
+Europe,Italy,Province of Piacenza,Castell'Arquato,"Castell'Arquato, Italy",been,0,
+Europe,Italy,Province of Piacenza,Piacenza,"Piacenza, Italy",been,0,
+Europe,Italy,Province of Piacenza,Ponte dell'Olio,"Ponte dell'Olio, Italy",been,0,
+Europe,Italy,Province of Ragusa,Marina di Ragusa,"Marina di Ragusa, Italy",been,0,
+Europe,Italy,Province of Ragusa,Modica,"Modica, Italy",been,0,
+Europe,Italy,Province of Ragusa,Punta Braccetto,"Punta Braccetto, Italy",been,0,
+Europe,Italy,Province of Ragusa,Punta Secca,"Punta Secca, Italy",been,0,
+Europe,Italy,Province of Ragusa,Ragusa,"Ragusa, Italy",been,0,
+Europe,Italy,Province of Ragusa,Santa Croce Camerina,"Santa Croce Camerina, Italy",been,0,
+Europe,Italy,Province of Ragusa,Scoglitti,"Scoglitti, Italy",been,0,
+Europe,Italy,Province of Ragusa,Vittoria,"Vittoria, Italy",been,0,
+Europe,Italy,Province of Rovigo,Rovigo,"Rovigo, Italy",been,0,
+Europe,Italy,Province of Rovigo,Villadose,"Villadose, Italy",been,0,
+Europe,Italy,Province of Sassari,Alghero,"Alghero, Italy",been,0,
+Europe,Italy,Province of Sassari,Castelsardo,"Castelsardo, Italy",been,0,
+Europe,Italy,Province of Sassari,Porto Torres,"Porto Torres, Italy",been,0,
+Europe,Italy,Province of Sassari,Stintino,"Stintino, Italy",been,0,
+Europe,Italy,Province of Sassari,Valledoria,"Valledoria, Italy",been,0,
+Europe,Italy,Province of Savona,Calizzano,"Calizzano, Italy",been,0,
+Europe,Italy,Province of Sondrio,Bormio,"Bormio, Italy",been,0,
+Europe,Italy,Province of Sondrio,Grosio,"Grosio, Italy",been,0,
+Europe,Italy,Province of Sondrio,Livigno,"Livigno, Italy",been,0,
+Europe,Italy,Province of Sondrio,Tirano,"Tirano, Italy",been,0,
+Europe,Italy,Province of South Tyrol,Merano,"Merano, Italy",been,0,
+Europe,Italy,Province of Syracuse,Avola,"Avola, Italy",been,0,
+Europe,Italy,Province of Syracuse,Noto,"Noto, Italy",been,0,
+Europe,Italy,Province of Syracuse,Syracuse,"Syracuse, Italy",been,0,
+Europe,Italy,Province of Trapani,Erice,"Erice, Italy",been,0,
+Europe,Italy,Province of Trento,Trento,"Trento, Italy",been,0,
+Europe,Italy,Province of Treviso,Castelfranco Veneto,"Castelfranco Veneto, Italy",been,0,
+Europe,Italy,Province of Treviso,Treviso,"Treviso, Italy",been,0,
+Europe,Italy,Province of Trieste,Trieste,"Trieste, Italy",been,0,
+Europe,Italy,Province of Turin,Turin,"Turin, Italy",been,0,
+Europe,Italy,Province of Varese,Brinzio,"Brinzio, Italy",been,0,
+Europe,Italy,Province of Varese,Cuasso al Monte,"Cuasso al Monte, Italy",been,0,
+Europe,Italy,Province of Varese,Gallarate,"Gallarate, Italy",been,0,
+Europe,Italy,Province of Varese,Lavena Ponte Tresa,"Lavena Ponte Tresa, Italy",been,0,
+Europe,Italy,Province of Varese,Malnate,"Malnate, Italy",been,0,
+Europe,Italy,Province of Varese,Porto Ceresio,"Porto Ceresio, Italy",been,0,
+Europe,Italy,Province of Varese,Varese,"Varese, Italy",been,0,
+Europe,Italy,Province of Venice,Venice,"Venice, Italy",been,0,
+Europe,Italy,Province of Verbano-Cusio-Ossola,Domodossola,"Domodossola, Italy",been,0,
+Europe,Italy,Province of Verbano-Cusio-Ossola,Macugnaga,"Macugnaga, Italy",been,0,
+Europe,Italy,Province of Verona,Peschiera del Garda,"Peschiera del Garda, Italy",been,0,
+Europe,Italy,Province of Verona,Verona,"Verona, Italy",been,0,
+Europe,Italy,Province of Verona,Villafranca di Verona,"Villafranca di Verona, Italy",been,0,
+Europe,Italy,Province of Vibo Valentia,Nicotera,"Nicotera, Italy",been,0,
+Europe,Italy,Province of Vicenza,Bassano Del Grappa,"Bassano Del Grappa, Italy",been,0,
+Europe,Italy,Province of Viterbo,Montefiascone,"Montefiascone, Italy",been,0,
+Europe,Italy,Province of Viterbo,Viterbo,"Viterbo, Italy",been,0,
+Europe,Malta,,Island of Gozo,"Island of Gozo, Malta",been,0,190313
+Europe,Malta,,Marsascala,"Marsascala, Malta",been,0,227896
+Europe,Malta,,Marsaxlokk,"Marsaxlokk, Malta",been,0,190323
+Europe,Malta,,Mdina,"Mdina, Malta",been,0,190324
+Europe,Malta,,Mellieha,"Mellieha, Malta",been,0,230152
+Europe,Malta,,Mosta,"Mosta, Malta",been,0,190325
+Europe,Malta,,Saint Julian's,"Saint Julian's, Malta",been,0,227101
+Europe,Malta,,Valletta,"Valletta, Malta",been,0,190328
+Europe,Monaco,,Monte-Carlo,"Monte-Carlo, Monaco",been,0,190409
+Europe,Poland,Mazovia Province,Warsaw,"Warsaw, Poland",been,0,
+Europe,Portugal,,Braga,"Braga, Portugal",been,0,189171
+Europe,Portugal,,Cascais,"Cascais, Portugal",been,0,189154
+Europe,Portugal,,Lisbon,"Lisbon, Portugal",fave,1,189158
+Europe,Portugal,,Porto,"Porto, Portugal",been,0,189180
+Europe,Portugal,,Sintra,"Sintra, Portugal",been,1,189164
+Europe,Portugal,,Tomar,"Tomar, Portugal",been,0,312717
+Europe,San Marino,,City of San Marino,"City of San Marino, San Marino",been,0,187809
+Europe,Spain,,Es Pujols,"Es Pujols, Spain",been,0,673238
+Europe,Spain,,Ibiza Town,"Ibiza Town, Spain",been,0,664638
+Europe,Spain,,La Savina,"La Savina, Spain",been,0,1188766
+Europe,Spain,,Palma de Mallorca,"Palma de Mallorca, Spain",been,0,187463
+Europe,Spain,,Sant Ferran de ses Roques,"Sant Ferran de ses Roques, Spain",been,0,1590508
+Europe,Spain,,Sant Francesc de Formentera,"Sant Francesc de Formentera, Spain",been,0,1188767
+Europe,Spain,Province of Barcelona,Barcelona,"Barcelona, Spain",fave,0,
+Europe,Spain,Province of Girona,L'Estartit,"L'Estartit, Spain",been,0,
+Europe,Switzerland,,Andeer,"Andeer, Switzerland",been,0,1190120
+Europe,Switzerland,,Ascona,"Ascona, Switzerland",been,0,198865
+Europe,Switzerland,,Bellinzona,"Bellinzona, Switzerland",been,0,188093
+Europe,Switzerland,,Biasca,"Biasca, Switzerland",been,0,229459
+Europe,Switzerland,,Brunnen,"Brunnen, Switzerland",been,0,198804
+Europe,Switzerland,,Geneva,"Geneva, Switzerland",been,0,188057
+Europe,Switzerland,,Leukerbad,"Leukerbad, Switzerland",been,0,198859
+Europe,Switzerland,,Locarno,"Locarno, Switzerland",been,0,188094
+Europe,Switzerland,,Lucerne,"Lucerne, Switzerland",been,0,188064
+Europe,Switzerland,,Lugano,"Lugano, Switzerland",been,0,188095
+Europe,Switzerland,,Morcote,"Morcote, Switzerland",been,0,1130037
+Europe,Switzerland,,Ponte Tresa,"Ponte Tresa, Switzerland",been,0,580367
+Europe,Switzerland,,Poschiavo,"Poschiavo, Switzerland",been,0,658759
+Europe,Switzerland,,Schwyz,"Schwyz, Switzerland",been,0,188073
+Europe,Switzerland,,St. Moritz,"St. Moritz, Switzerland",been,0,188091
+Europe,United Kingdom,,London,"London, United Kingdom",been,0,186338
+Europe,Vatican City,,Vatican City,"Vatican City, Vatican City",been,0,187793
+North America,United States,NY,New York City,"New York City, United States",been,0,
+North America,United States,PA,Bethlehem,"Bethlehem, United States",been,0,
+South America,Argentina,,Buenos Aires,"Buenos Aires, Argentina",been,0,312741
