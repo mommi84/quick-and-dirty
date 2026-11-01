@@ -1,29 +1,81 @@
-# London constituencies, café density, and unsolicited opinions.
-# Café counts and populations are lovingly approximated for comedic effect.
-# Edit this file and re-run build_map.py to regenerate the map.
-constituency,lat,lon,population,cafes,quip
-Hackney South and Shoreditch,51.535,-0.058,121000,612,"Oat milk is the official tap water."
-Bethnal Green and Stepney,51.525,-0.045,124000,498,"Every railway arch is legally required to roast beans."
-Hackney North and Stoke Newington,51.563,-0.075,119000,521,"Buggies wider than the pavements they patrol."
-Islington South and Finsbury,51.535,-0.105,112000,447,"Flat whites priced per syllable."
-Holborn and St Pancras,51.530,-0.125,141000,506,"Commuters inhale espresso between two stations."
-Islington North,51.555,-0.115,116000,389,"Allotment energy, single-origin attitude."
-Vauxhall and Camberwell Green,51.480,-0.105,127000,372,"Brunch is a competitive sport here."
-Bermondsey and Old Southwark,51.495,-0.065,131000,398,"Borough Market spillover, now with more sourdough."
-Clapham and Brixton Hill,51.455,-0.130,118000,401,"Cortado-to-resident ratio nearing dangerous levels."
-Cities of London and Westminster,51.513,-0.135,103000,540,"Tourists, bankers, and £6 cappuccinos."
-Kensington and Bayswater,51.510,-0.190,109000,358,"Cafés with valet parking for prams."
-Chelsea and Fulham,51.485,-0.190,107000,331,"The almond croissant is a personality."
-Hampstead and Highgate,51.560,-0.165,114000,342,"Poets, plutocrats, and a long flat white."
-Dulwich and West Norwood,51.440,-0.085,123000,289,"Sourdough belt, southern frontier."
-Streatham and Croydon North,51.430,-0.120,128000,231,"Caffeine gentrification, incoming."
-Tooting,51.430,-0.165,121000,276,"Latte art versus the legendary curry mile."
-Walthamstow,51.585,-0.020,115000,268,"Village vibes, aggressive flat whites."
-Leyton and Wanstead,51.575,0.010,122000,214,"E-postcode, espresso-adjacent."
-Ealing Central and Acton,51.510,-0.280,126000,247,"Studios, suburbs, and surprisingly good beans."
-Brentford and Isleworth,51.480,-0.330,133000,221,"Riverside flats demand riverside roasters."
-Greenwich and Woolwich,51.485,0.020,129000,238,"Maritime history, decent macchiato."
-Lewisham North,51.460,-0.020,124000,256,"Up-and-coming, says every estate agent."
-Hornsey and Friern Barnet,51.585,-0.120,127000,279,"Crouch End: where careers go to drink coffee."
-Finchley and Golders Green,51.595,-0.190,121000,233,"Bagels and beans in equal measure."
-Barking,51.540,0.080,135000,142,"Honest builder's tea outnumbers the cortados."
+# London (75 Westminster constituencies, July 2024) by café density.
+# REAL DATA — regenerate with `python3 fetch_data.py`.
+#   cafes      : amenity=cafe in OpenStreetMap (Overpass), snapshot date varies.
+#   population : ONS Census 2021 usual residents (Nomis TS001).
+#   boundaries : ONS July 2024 constituencies -> london_constituencies.geojson
+code,constituency,lat,lon,population,cafes
+E14001172,Cities of London and Westminster,51.5121,-0.14226,119981,875
+E14001290,Holborn and St Pancras,51.53471,-0.1356,106020,405
+E14001306,Islington South and Finsbury,51.53777,-0.10431,115956,215
+E14001310,Kensington and Bayswater,51.50738,-0.19575,132867,221
+E14001260,Hackney South and Shoreditch,51.54065,-0.05961,112556,182
+E14001085,Bermondsey and Old Southwark,51.49806,-0.07025,107159,158
+E14001086,Bethnal Green and Stepney,51.5211,-0.05682,126756,185
+E14001525,Stratford and Bow,51.53962,-0.00575,127715,172
+E14001264,Hammersmith and Chiswick,51.4934,-0.25015,116230,150
+E14001559,Vauxhall and Camberwell Green,51.48432,-0.11141,103329,131
+E14001305,Islington North,51.55961,-0.11434,109828,136
+E14001445,Richmond Park,51.44872,-0.27946,111482,128
+E14001556,Twickenham,51.4275,-0.34429,107335,112
+E14001293,Hornsey and Friern Barnet,51.59215,-0.13321,103101,107
+E14001081,Battersea,51.4669,-0.15843,108899,110
+E14001435,Queen's Park and Maida Vale,51.53127,-0.20762,123967,119
+E14001160,Chelsea and Fulham,51.48033,-0.19434,119520,113
+E14001257,Greenwich and Woolwich,51.48374,0.02833,117455,111
+E14001205,Dulwich and West Norwood,51.44471,-0.09285,107099,99
+E14001563,Walthamstow,51.58509,-0.02777,122414,113
+E14001265,Hampstead and Highgate,51.55904,-0.16967,116880,102
+E14001430,Poplar and Limehouse,51.50756,-0.02254,138611,118
+E14001332,Lewisham North,51.46989,-0.02563,117129,96
+E14001207,Ealing Central and Acton,51.51681,-0.27156,132426,106
+E14001421,Peckham,51.47776,-0.07298,108103,83
+E14001334,Leyton and Wanstead,51.57013,0.01591,117244,90
+E14001312,Kingston and Surbiton,51.37828,-0.2941,115117,88
+E14001586,Wimbledon,51.41373,-0.22428,110395,80
+E14001550,Tooting,51.4368,-0.16547,107287,77
+E14001259,Hackney North and Stoke Newington,51.56087,-0.0612,116267,83
+E14001175,Clapham and Brixton Hill,51.45748,-0.1303,104988,72
+E14001503,Southgate and Wood Green,51.63543,-0.1291,128472,88
+E14001333,Lewisham West and East Dulwich,51.44433,-0.05397,99593,67
+E14001083,Beckenham and Penge,51.39989,-0.02978,107150,72
+E14001434,Putney,51.45281,-0.22212,111320,74
+E14001576,West Ham and Beckton,51.51662,0.03982,137229,81
+E14001553,Tottenham,51.58919,-0.07575,136277,77
+E14001417,Orpington,51.35777,0.09385,98226,55
+E14001167,Chingford and Woodford Green,51.6156,0.01218,111005,56
+E14001137,Bromley and Biggin Hill,51.36659,0.02528,97556,48
+E14001238,Finchley and Golders Green,51.58813,-0.18972,126127,61
+E14001188,Croydon West,51.38246,-0.10464,122503,59
+E14001187,Croydon South,51.32883,-0.106,101036,48
+E14001527,Streatham and Croydon North,51.41824,-0.11278,118578,50
+E14001169,Chipping Barnet,51.63815,-0.20663,112899,47
+E14001124,Brentford and Isleworth,51.47508,-0.34553,128727,53
+E14001331,Lewisham East,51.43635,-0.00283,117191,47
+E14001209,Ealing Southall,51.50752,-0.35507,124902,50
+E14001213,East Ham,51.53951,0.05246,131034,52
+E14001153,Carshalton and Wallington,51.36135,-0.15511,105014,40
+E14001454,"Ruislip, Northwood and Pinner",51.59778,-0.42635,99874,38
+E14001448,Romford,51.59099,0.18077,108262,41
+E14001225,Enfield North,51.66659,-0.07459,127376,47
+E14001534,Sutton and Cheam,51.36315,-0.20893,104624,38
+E14001414,Old Bexley and Sidcup,51.43973,0.1182,101091,36
+E14001271,Harrow West,51.57908,-0.35071,121387,42
+E14001223,Eltham and Chislehurst,51.43744,0.05796,110420,38
+E14001279,Hendon,51.60319,-0.2416,130868,45
+E14001276,Hayes and Harlington,51.49485,-0.44365,126402,40
+E14001189,Dagenham and Rainham,51.5296,0.18584,119201,36
+E14001208,Ealing North,51.53764,-0.3506,127756,35
+E14001073,Barking,51.53653,0.11591,133816,34
+E14001089,Bexleyheath and Crayford,51.46401,0.16356,98663,25
+E14001300,Ilford North,51.5923,0.09259,119479,29
+E14001221,Edmonton and Winchmore Hill,51.62815,-0.06799,126808,30
+E14001186,Croydon East,51.36174,-0.04619,109851,25
+E14001292,Hornchurch and Upminster,51.57061,0.25152,107511,24
+E14001558,Uxbridge and South Ruislip,51.55158,-0.45083,118332,26
+E14001123,Brent West,51.56182,-0.29681,133671,28
+E14001122,Brent East,51.55655,-0.24762,134510,28
+E14001236,Feltham and Heston,51.45719,-0.40792,133153,27
+E14001301,Ilford South,51.56851,0.10825,130669,20
+E14001270,Harrow East,51.60947,-0.313,118307,17
+E14001229,Erith and Thamesmead,51.4896,0.11837,134969,19
+E14001371,Mitcham and Morden,51.40099,-0.1765,123762,17
