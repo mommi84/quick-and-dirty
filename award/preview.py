@@ -3,6 +3,7 @@
 
 Usage: python preview.py cup preview.png
        python preview.py clef clef_preview.png
+       python preview.py lady lady_preview.png
 """
 import os
 import sys
@@ -28,6 +29,9 @@ def scene(topper):
     elif topper == "clef":
         import clef
         t = clef.build(next(f for f in clef.FONTS if os.path.exists(f)))
+    elif topper == "lady":
+        import lady
+        t = lady.build()
     else:
         raise SystemExit(f"unknown topper {topper!r}")
     t.apply_translation((0, 0, top))
